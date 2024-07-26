@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spectroscopy - Chemical Spectroscopy Group &mdash; SHIVER 1.1.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="_static/my_theme.css" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="_static/jquery.js?v=5d32c60e"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="_static/documentation_options.js?v=fc837d61"></script>
+        <script src="_static/doctools.js?v=9a2dae69"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Spectroscopy - Direct-Geometry and Triple-Axis Group" href="spectroscopy_dg_ta.html" />
+    <link rel="prev" title="Reflectometry" href="reflectometry.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: #472375" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            SHIVER
+          </a>
+              <div class="version">
+                1.1.0.dev9+d202407261234
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="reflectometry.html">Reflectometry</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Spectroscopy - Chemical Spectroscopy Group</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#data-reduction-process">Data Reduction Process</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#data-reduction-software">Data Reduction Software</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#dave">Dave</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#shiver">Shiver</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#horace">Horace</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#data-analysis-process">Data Analysis Process</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#data-analysis-software">Data Analysis Software</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#spinw">SpinW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#sunny">Sunny</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#phonopy">Phonopy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#gsas-ii">GSAS-II</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#spice-graffiti">Spice/Graffiti</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#multiphonon">multiphonon</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="spectroscopy_dg_ta.html">Spectroscopy - Direct-Geometry and Triple-Axis Group</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu"  style="background: #472375" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">SHIVER</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Spectroscopy - Chemical Spectroscopy Group</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/spectroscopy_chemical.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="spectroscopy-chemical-spectroscopy-group">
+<h1>Spectroscopy - Chemical Spectroscopy Group<a class="headerlink" href="#spectroscopy-chemical-spectroscopy-group" title="Link to this heading"></a></h1>
+<section id="data-reduction-process">
+<span id="spectroscopy-chemical"></span><h2>Data Reduction Process<a class="headerlink" href="#data-reduction-process" title="Link to this heading"></a></h2>
+<p>For direct geometry instruments (CNCS, HYSPEC, SEQUIOA, ARCS),
+data is reduced using auto-reduction. These are scripts using mantid.
+These custom scripts live in the instrument computer, where everyone
+has access to them.</p>
+<p>For triple-axis (CTAX, PTAX, TAX, VERITAS), data is already reduced.
+The program to visualize these results is Graffiti, which is a part
+of Spice. Graffiti’s underlying software is Labview. Dave, Shiver,
+Horace are all used for reduction or visualization. Visualization
+is important for single crystal, 3D structure.</p>
+</section>
+<section id="data-reduction-software">
+<h2>Data Reduction Software<a class="headerlink" href="#data-reduction-software" title="Link to this heading"></a></h2>
+<section id="dave">
+<h3>Dave<a class="headerlink" href="#dave" title="Link to this heading"></a></h3>
+<dl class="simple">
+<dt>Overview</dt><dd><p>“The main objective of DAVE is to provide a user friendly tool for
+scientists involved in neutron scattering research to quickly reduce,
+visualize and interpret their data” [11]</p>
+</dd>
+<dt>Useful Links and Resources</dt><dd><p>The Dave website includes links to user manuals, paper, documentation,
+course notes, downloads, features, screenshots, changelogs, and more.</p>
+</dd>
+</dl>
+</section>
+<section id="shiver">
+<h3>Shiver<a class="headerlink" href="#shiver" title="Link to this heading"></a></h3>
+<dl class="simple">
+<dt>Overview</dt><dd><p>“The main objective of DAVE is to provide a user friendly tool for
+scientists involved in neutron scattering research to quickly reduce,
+visualize and interpret their data” [11]</p>
+</dd>
+<dt>Useful Links and Resources</dt><dd><p>“Tool (desktop application) for allowing the examination of Time of
+Flight (ToF) inelastic neutron data, from single crystal, direct
+geometry experiments.” [12]</p>
+</dd>
+</dl>
+</section>
+<section id="horace">
+<h3>Horace<a class="headerlink" href="#horace" title="Link to this heading"></a></h3>
+<dl class="simple">
+<dt>Overview</dt><dd><p>“Horace is a suite of programs for the visualization and analysis of large
+datasets from time-of-flight neutron inelastic scattering spectrometers.” [13]</p>
+</dd>
+<dt>Useful Links and Resources</dt><dd><p>User documentation, developer documentation, source code, examples, local
+installation. To use in the analysis cluster, open Matlab, then type ‘horace’
+in the command line.</p>
+</dd>
+</dl>
+</section>
+</section>
+<section id="data-analysis-process">
+<h2>Data Analysis Process<a class="headerlink" href="#data-analysis-process" title="Link to this heading"></a></h2>
+<p>Spectroscopy investigates interactions, while, for example,
+Diffraction investigates how atoms are arranged. Interactions
+are more complicated than structure and, for example, a magnetism
+perspective may be relevant.</p>
+</section>
+<section id="data-analysis-software">
+<h2>Data Analysis Software<a class="headerlink" href="#data-analysis-software" title="Link to this heading"></a></h2>
+<section id="spinw">
+<h3>SpinW<a class="headerlink" href="#spinw" title="Link to this heading"></a></h3>
+<dl class="simple">
+<dt>Overview</dt><dd><p>“SpinW is a MATLAB, Python, and C++ library that can plot and numerically
+simulate magnetic structures and excitations of given spin Hamiltonian using
+classical Monte Carlo simulation and linear spin wave theory.” [14]</p>
+</dd>
+<dt>Useful Links and Resources</dt><dd><p>Source code, official documentation. The SpinW website also includes documentation,
+installation instructions, tutorials, publications, presentations, and more.</p>
+</dd>
+</dl>
+</section>
+<section id="sunny">
+<h3>Sunny<a class="headerlink" href="#sunny" title="Link to this heading"></a></h3>
+<dl class="simple">
+<dt>Overview</dt><dd><p>“Sunny is a Julia package for modeling atomic-scale magnetism. It provides powerful
+tools to study equilibrium and non-equilibrium magnetic phenomena. In particular, it
+allows estimation of dynamical structure factor intensities, S(q,w), to support quantitative
+modeling of experimental scattering data.” [15]</p>
+</dd>
+<dt>Useful Links and Resources</dt><dd><p>Documentation, github</p>
+</dd>
+</dl>
+</section>
+<section id="phonopy">
+<h3>Phonopy<a class="headerlink" href="#phonopy" title="Link to this heading"></a></h3>
+<dl class="simple">
+<dt>Overview</dt><dd><p>“Phono3py is another open source package for phonon-phonon interaction and lattice thermal
+conductivity calculations.” [16]</p>
+</dd>
+<dt>Useful Links and Resources</dt><dd><p>The Phonopy website includes guides, documentation, features, and more.</p>
+</dd>
+</dl>
+</section>
+<section id="gsas-ii">
+<h3>GSAS-II<a class="headerlink" href="#gsas-ii" title="Link to this heading"></a></h3>
+<dl class="simple">
+<dt>Overview</dt><dd><p>“GSAS-II is used to analyze all types of x-ray and neutron diffraction data, including
+single-crystal, powder, constant-wavelength, pink-beam and time-of-flight, lab, synchrotron,
+spallation and reactor sources, including Rietveld analysis.” [17]</p>
+</dd>
+<dt>Useful Links and Resources</dt><dd><p>The GSAS-II website includes developer documentation, tutorials, and source code.</p>
+</dd>
+</dl>
+</section>
+<section id="spice-graffiti">
+<h3>Spice/Graffiti<a class="headerlink" href="#spice-graffiti" title="Link to this heading"></a></h3>
+<dl class="simple">
+<dt>Overview</dt><dd><p>“SPICE is a LabVIEW based program designed for control of neutron scattering instruments.
+Currently, SPICE is being used on the HB1 and HB3 triple-axis spectrometers at the High Flux
+Isotope Reactor at Oak Ridge National Laboratory.” [18]</p>
+</dd>
+<dt>Useful Links and Resources</dt><dd><p>The Spice website includes introductions, user guides, downloads, and more.</p>
+</dd>
+</dl>
+</section>
+<section id="multiphonon">
+<h3>multiphonon<a class="headerlink" href="#multiphonon" title="Link to this heading"></a></h3>
+<dl class="simple">
+<dt>Overview</dt><dd><p>“Powder spectra measured by inelastic neutron spectrometers provide information such as phonon
+density of states (DOS), a fundamental property of a solid. The measured spectra, however, are
+two-dimensional in axes of Q (momentum transfer) and E (energy transfer). This code converts a
+S(Q,E) INS spectrum to DOS.” [19]</p>
+</dd>
+<dt>Useful Links and Resources</dt><dd><p>Documentation, github, examples</p>
+</dd>
+</dl>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="reflectometry.html" class="btn btn-neutral float-left" title="Reflectometry" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="spectroscopy_dg_ta.html" class="btn btn-neutral float-right" title="Spectroscopy - Direct-Geometry and Triple-Axis Group" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, ORNL.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+Spectroscopy - Direct-Geometry and Triple-Axis Group
+==================================
+
+.. _spectroscopy_dg_ta:
+
+How is data reduced for the Direct Geometry and Triple-Axis Group?
+-----------------------------------
+For direct geometry instruments (CNCS, HYSPEC, SEQUIOA, ARCS), 
+data is reduced using auto-reduction. These are scripts using mantid. 
+These custom scripts live in the instrument computer, where everyone 
+has access to them.
+
+For triple-axis (CTAX, PTAX, TAX, VERITAS), data is already reduced. 
+The program to visualize these results is Graffiti, which is a part 
+of Spice. Graffiti’s underlying software is Labview. Dave, Shiver, 
+Horace are all used for reduction or visualization. Visualization 
+is important for single crystal, 3D structure.
+
+Dave
+```````````````````````````````
+Overview
+    “The main objective of DAVE is to provide a user friendly tool for 
+    scientists involved in neutron scattering research to quickly reduce, 
+    visualize and interpret their data” [11]
+
+Useful Links and Resources
+    The Dave website includes links to user manuals, paper, documentation, 
+    course notes, downloads, features, screenshots, changelogs, and more.
+
+Shiver
+```````````````````````````````
+Overview
+    “The main objective of DAVE is to provide a user friendly tool for 
+    scientists involved in neutron scattering research to quickly reduce, 
+    visualize and interpret their data” [11]
+
+Useful Links and Resources
+    “Tool (desktop application) for allowing the examination of Time of 
+    Flight (ToF) inelastic neutron data, from single crystal, direct 
+    geometry experiments.” [12]
+
+Horace
+```````````````````````````````
+Overview
+    “Horace is a suite of programs for the visualization and analysis of large 
+    datasets from time-of-flight neutron inelastic scattering spectrometers.” [13]
+
+Useful Links and Resources
+
+
+How is data analyzed?
+-----------------------------------
