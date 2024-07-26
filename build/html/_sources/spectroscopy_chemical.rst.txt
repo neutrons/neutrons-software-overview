@@ -3,55 +3,56 @@ Spectroscopy - Chemical Spectroscopy Group
 
 .. _spectroscopy_chemical:
 
+Overview
+-----------------------------------
+The subject matter for the Chemical Spectroscopy Group is vibrational or 
+diffusive dynamics, which often attracts scientists with a biology or chemistry 
+background. However, technically, what the two instruments (VISION & BASIS) 
+measure are very different, and consequently the data analysis workflows 
+are also different.
+
 Data Reduction Process
 -----------------------------------
-For direct geometry instruments (CNCS, HYSPEC, SEQUIOA, ARCS), 
-data is reduced using auto-reduction. These are scripts using mantid. 
-These custom scripts live in the instrument computer, where everyone 
-has access to them.
+At BASIS, most users are assisted by the instrument scientists to reduce 
+the data. There are existing algorithms in Mantid and experienced users 
+can easily reduce the data by themselves. At VISION, all data is reduced 
+automatically. These are python scripts that are view for anyone to inspect 
+at analysis.sns.gov. Some of the post-reduction operations include merging 
+the data that is saved hour by hour and smoothing. For the NSE instrument 
+(part of the SANS & Spin Echo Group), which is a very different technique 
+than all the other instruments, the reduction software that is used is DrSpine.
 
-For triple-axis (CTAX, PTAX, TAX, VERITAS), data is already reduced. 
-The program to visualize these results is Graffiti, which is a part 
-of Spice. Graffiti’s underlying software is Labview. Dave, Shiver, 
-Horace are all used for reduction or visualization. Visualization 
-is important for single crystal, 3D structure.
+At VISION, all data is reduced automatically. These are python scripts that 
+are view for anyone to inspect at analysis.sns.gov. Some of the post-reduction 
+operations include merging the data that is saved hour by hour and smoothing.
+
+For the NSE instrument (part of the SANS & Spin Echo Group), which is a very 
+different technique than all the other instruments, the reduction software 
+that is used is DrSpine.
 
 Data Reduction Software
 -----------------------------------
 
-Dave
+Mantid
 ```````````````````````````````
 Overview
-    “The main objective of DAVE is to provide a user friendly tool for 
-    scientists involved in neutron scattering research to quickly reduce, 
-    visualize and interpret their data” [11]
-
+    “The Mantid project provides a framework that supports high-performance 
+    computing and visualization of scientific data. Mantid has been created 
+    to manipulate and analyze Neutron and Muon scattering data but could be 
+    applied to many other techniques.” [21]
 Useful Links and Resources
-    The Dave website includes links to user manuals, paper, documentation, 
-    course notes, downloads, features, screenshots, changelogs, and more.
+    The Mantid website includes downloads, tutorials, user documentation, 
+    developer documentation, and more.
 
-Shiver
+DrSPINE
 ```````````````````````````````
 Overview
-    “The main objective of DAVE is to provide a user friendly tool for 
-    scientists involved in neutron scattering research to quickly reduce, 
-    visualize and interpret their data” [11]
+    “DrSPINE is a software package that performs data reduction and analysis 
+    for reactor and pulsed source based Neutron Spin Echo experiments.” [22]
 
 Useful Links and Resources
-    “Tool (desktop application) for allowing the examination of Time of 
-    Flight (ToF) inelastic neutron data, from single crystal, direct 
-    geometry experiments.” [12]
-
-Horace
-```````````````````````````````
-Overview
-    “Horace is a suite of programs for the visualization and analysis of large 
-    datasets from time-of-flight neutron inelastic scattering spectrometers.” [13]
-
-Useful Links and Resources
-    User documentation, developer documentation, source code, examples, local 
-    installation. To use in the analysis cluster, open Matlab, then type ‘horace’ 
-    in the command line.
+    “DrSPINE is a software package that performs data reduction and analysis 
+    for reactor and pulsed source based Neutron Spin Echo experiments.” [22]
 
 Data Analysis Process
 -----------------------------------
@@ -63,71 +64,29 @@ perspective may be relevant.
 
 Data Analysis Software
 -----------------------------------
+There are lots of software packages that can be used, it is ultimately the 
+user’s choice. The data is usually a 1-dimensional spectrum. Oclimax is one 
+example of software that is being used. Some of the main functions include 
+analyzing lattice dynamics, phonon calculations.
 
-SpinW
+Oclimax
 ```````````````````````````````
 Overview
-    “SpinW is a MATLAB, Python, and C++ library that can plot and numerically 
-    simulate magnetic structures and excitations of given spin Hamiltonian using 
-    classical Monte Carlo simulation and linear spin wave theory.” [14]
+    “A program for the calculation of inelastic nuclear scattering.” [23]
 
 Useful Links and Resources
-    Source code, official documentation. The SpinW website also includes documentation, 
-    installation instructions, tutorials, publications, presentations, and more.
+    Website. An introduction, examples, and installation can be found in 
+    this presentation.
 
-Sunny
-```````````````````````````````
-
-Overview
-    “Sunny is a Julia package for modeling atomic-scale magnetism. It provides powerful 
-    tools to study equilibrium and non-equilibrium magnetic phenomena. In particular, it 
-    allows estimation of dynamical structure factor intensities, S(q,w), to support quantitative 
-    modeling of experimental scattering data.” [15]
-
-Useful Links and Resources
-    Documentation, github
-
-Phonopy
+JScatter
 ```````````````````````````````
 
 Overview
-    “Phono3py is another open source package for phonon-phonon interaction and lattice thermal 
-    conductivity calculations.” [16]
+    “Jscatter is a python package that provides useful models for neutron 
+    and X-ray scattering form factors, structure factors, and dynamic 
+    models (quasi elastic neutron scattering) and other topics.” [24]
 
 Useful Links and Resources
-    The Phonopy website includes guides, documentation, features, and more.
-
-GSAS-II
-```````````````````````````````
-
-Overview
-    “GSAS-II is used to analyze all types of x-ray and neutron diffraction data, including 
-    single-crystal, powder, constant-wavelength, pink-beam and time-of-flight, lab, synchrotron, 
-    spallation and reactor sources, including Rietveld analysis.” [17]
-
-Useful Links and Resources
-    The GSAS-II website includes developer documentation, tutorials, and source code.
-
-Spice/Graffiti
-```````````````````````````````
-
-Overview
-    “SPICE is a LabVIEW based program designed for control of neutron scattering instruments. 
-    Currently, SPICE is being used on the HB1 and HB3 triple-axis spectrometers at the High Flux 
-    Isotope Reactor at Oak Ridge National Laboratory.” [18]
-
-Useful Links and Resources
-    The Spice website includes introductions, user guides, downloads, and more.
-
-multiphonon
-```````````````````````````````
-
-Overview
-    “Powder spectra measured by inelastic neutron spectrometers provide information such as phonon 
-    density of states (DOS), a fundamental property of a solid. The measured spectra, however, are 
-    two-dimensional in axes of Q (momentum transfer) and E (energy transfer). This code converts a 
-    S(Q,E) INS spectrum to DOS.” [19]
-
-Useful Links and Resources
-    Documentation, github, examples
-
+    “Jscatter is a python package that provides useful models for neutron 
+    and X-ray scattering form factors, structure factors, and dynamic 
+    models (quasi elastic neutron scattering) and other topics.” [24]

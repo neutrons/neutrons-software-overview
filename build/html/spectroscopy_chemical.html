@@ -38,7 +38,7 @@
             SHIVER
           </a>
               <div class="version">
-                1.1.0.dev9+d202407261234
+                1.1.0.dev9+d202407261753
               </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
@@ -52,21 +52,17 @@
 <li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="reflectometry.html">Reflectometry</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Spectroscopy - Chemical Spectroscopy Group</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#overview">Overview</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#data-reduction-process">Data Reduction Process</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#data-reduction-software">Data Reduction Software</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#dave">Dave</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#shiver">Shiver</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#horace">Horace</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#mantid">Mantid</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#drspine">DrSPINE</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#data-analysis-process">Data Analysis Process</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#data-analysis-software">Data Analysis Software</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#spinw">SpinW</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#sunny">Sunny</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#phonopy">Phonopy</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#gsas-ii">GSAS-II</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#spice-graffiti">Spice/Graffiti</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#multiphonon">multiphonon</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#oclimax">Oclimax</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jscatter">JScatter</a></li>
 </ul>
 </li>
 </ul>
@@ -100,54 +96,54 @@
              
   <section id="spectroscopy-chemical-spectroscopy-group">
 <h1>Spectroscopy - Chemical Spectroscopy Group<a class="headerlink" href="#spectroscopy-chemical-spectroscopy-group" title="Link to this heading"></a></h1>
+<section id="overview">
+<span id="spectroscopy-chemical"></span><h2>Overview<a class="headerlink" href="#overview" title="Link to this heading"></a></h2>
+<p>The subject matter for the Chemical Spectroscopy Group is vibrational or
+diffusive dynamics, which often attracts scientists with a biology or chemistry
+background. However, technically, what the two instruments (VISION &amp; BASIS)
+measure are very different, and consequently the data analysis workflows
+are also different.</p>
+</section>
 <section id="data-reduction-process">
-<span id="spectroscopy-chemical"></span><h2>Data Reduction Process<a class="headerlink" href="#data-reduction-process" title="Link to this heading"></a></h2>
-<p>For direct geometry instruments (CNCS, HYSPEC, SEQUIOA, ARCS),
-data is reduced using auto-reduction. These are scripts using mantid.
-These custom scripts live in the instrument computer, where everyone
-has access to them.</p>
-<p>For triple-axis (CTAX, PTAX, TAX, VERITAS), data is already reduced.
-The program to visualize these results is Graffiti, which is a part
-of Spice. Graffiti’s underlying software is Labview. Dave, Shiver,
-Horace are all used for reduction or visualization. Visualization
-is important for single crystal, 3D structure.</p>
+<h2>Data Reduction Process<a class="headerlink" href="#data-reduction-process" title="Link to this heading"></a></h2>
+<p>At BASIS, most users are assisted by the instrument scientists to reduce
+the data. There are existing algorithms in Mantid and experienced users
+can easily reduce the data by themselves. At VISION, all data is reduced
+automatically. These are python scripts that are view for anyone to inspect
+at analysis.sns.gov. Some of the post-reduction operations include merging
+the data that is saved hour by hour and smoothing. For the NSE instrument
+(part of the SANS &amp; Spin Echo Group), which is a very different technique
+than all the other instruments, the reduction software that is used is DrSpine.</p>
+<p>At VISION, all data is reduced automatically. These are python scripts that
+are view for anyone to inspect at analysis.sns.gov. Some of the post-reduction
+operations include merging the data that is saved hour by hour and smoothing.</p>
+<p>For the NSE instrument (part of the SANS &amp; Spin Echo Group), which is a very
+different technique than all the other instruments, the reduction software
+that is used is DrSpine.</p>
 </section>
 <section id="data-reduction-software">
 <h2>Data Reduction Software<a class="headerlink" href="#data-reduction-software" title="Link to this heading"></a></h2>
-<section id="dave">
-<h3>Dave<a class="headerlink" href="#dave" title="Link to this heading"></a></h3>
+<section id="mantid">
+<h3>Mantid<a class="headerlink" href="#mantid" title="Link to this heading"></a></h3>
 <dl class="simple">
-<dt>Overview</dt><dd><p>“The main objective of DAVE is to provide a user friendly tool for
-scientists involved in neutron scattering research to quickly reduce,
-visualize and interpret their data” [11]</p>
+<dt>Overview</dt><dd><p>“The Mantid project provides a framework that supports high-performance
+computing and visualization of scientific data. Mantid has been created
+to manipulate and analyze Neutron and Muon scattering data but could be
+applied to many other techniques.” [21]</p>
 </dd>
-<dt>Useful Links and Resources</dt><dd><p>The Dave website includes links to user manuals, paper, documentation,
-course notes, downloads, features, screenshots, changelogs, and more.</p>
+<dt>Useful Links and Resources</dt><dd><p>The Mantid website includes downloads, tutorials, user documentation,
+developer documentation, and more.</p>
 </dd>
 </dl>
 </section>
-<section id="shiver">
-<h3>Shiver<a class="headerlink" href="#shiver" title="Link to this heading"></a></h3>
+<section id="drspine">
+<h3>DrSPINE<a class="headerlink" href="#drspine" title="Link to this heading"></a></h3>
 <dl class="simple">
-<dt>Overview</dt><dd><p>“The main objective of DAVE is to provide a user friendly tool for
-scientists involved in neutron scattering research to quickly reduce,
-visualize and interpret their data” [11]</p>
+<dt>Overview</dt><dd><p>“DrSPINE is a software package that performs data reduction and analysis
+for reactor and pulsed source based Neutron Spin Echo experiments.” [22]</p>
 </dd>
-<dt>Useful Links and Resources</dt><dd><p>“Tool (desktop application) for allowing the examination of Time of
-Flight (ToF) inelastic neutron data, from single crystal, direct
-geometry experiments.” [12]</p>
-</dd>
-</dl>
-</section>
-<section id="horace">
-<h3>Horace<a class="headerlink" href="#horace" title="Link to this heading"></a></h3>
-<dl class="simple">
-<dt>Overview</dt><dd><p>“Horace is a suite of programs for the visualization and analysis of large
-datasets from time-of-flight neutron inelastic scattering spectrometers.” [13]</p>
-</dd>
-<dt>Useful Links and Resources</dt><dd><p>User documentation, developer documentation, source code, examples, local
-installation. To use in the analysis cluster, open Matlab, then type ‘horace’
-in the command line.</p>
+<dt>Useful Links and Resources</dt><dd><p>“DrSPINE is a software package that performs data reduction and analysis
+for reactor and pulsed source based Neutron Spin Echo experiments.” [22]</p>
 </dd>
 </dl>
 </section>
@@ -161,71 +157,30 @@ perspective may be relevant.</p>
 </section>
 <section id="data-analysis-software">
 <h2>Data Analysis Software<a class="headerlink" href="#data-analysis-software" title="Link to this heading"></a></h2>
-<section id="spinw">
-<h3>SpinW<a class="headerlink" href="#spinw" title="Link to this heading"></a></h3>
+<p>There are lots of software packages that can be used, it is ultimately the
+user’s choice. The data is usually a 1-dimensional spectrum. Oclimax is one
+example of software that is being used. Some of the main functions include
+analyzing lattice dynamics, phonon calculations.</p>
+<section id="oclimax">
+<h3>Oclimax<a class="headerlink" href="#oclimax" title="Link to this heading"></a></h3>
 <dl class="simple">
-<dt>Overview</dt><dd><p>“SpinW is a MATLAB, Python, and C++ library that can plot and numerically
-simulate magnetic structures and excitations of given spin Hamiltonian using
-classical Monte Carlo simulation and linear spin wave theory.” [14]</p>
+<dt>Overview</dt><dd><p>“A program for the calculation of inelastic nuclear scattering.” [23]</p>
 </dd>
-<dt>Useful Links and Resources</dt><dd><p>Source code, official documentation. The SpinW website also includes documentation,
-installation instructions, tutorials, publications, presentations, and more.</p>
+<dt>Useful Links and Resources</dt><dd><p>Website. An introduction, examples, and installation can be found in
+this presentation.</p>
 </dd>
 </dl>
 </section>
-<section id="sunny">
-<h3>Sunny<a class="headerlink" href="#sunny" title="Link to this heading"></a></h3>
+<section id="jscatter">
+<h3>JScatter<a class="headerlink" href="#jscatter" title="Link to this heading"></a></h3>
 <dl class="simple">
-<dt>Overview</dt><dd><p>“Sunny is a Julia package for modeling atomic-scale magnetism. It provides powerful
-tools to study equilibrium and non-equilibrium magnetic phenomena. In particular, it
-allows estimation of dynamical structure factor intensities, S(q,w), to support quantitative
-modeling of experimental scattering data.” [15]</p>
+<dt>Overview</dt><dd><p>“Jscatter is a python package that provides useful models for neutron
+and X-ray scattering form factors, structure factors, and dynamic
+models (quasi elastic neutron scattering) and other topics.” [24]</p>
 </dd>
-<dt>Useful Links and Resources</dt><dd><p>Documentation, github</p>
-</dd>
-</dl>
-</section>
-<section id="phonopy">
-<h3>Phonopy<a class="headerlink" href="#phonopy" title="Link to this heading"></a></h3>
-<dl class="simple">
-<dt>Overview</dt><dd><p>“Phono3py is another open source package for phonon-phonon interaction and lattice thermal
-conductivity calculations.” [16]</p>
-</dd>
-<dt>Useful Links and Resources</dt><dd><p>The Phonopy website includes guides, documentation, features, and more.</p>
-</dd>
-</dl>
-</section>
-<section id="gsas-ii">
-<h3>GSAS-II<a class="headerlink" href="#gsas-ii" title="Link to this heading"></a></h3>
-<dl class="simple">
-<dt>Overview</dt><dd><p>“GSAS-II is used to analyze all types of x-ray and neutron diffraction data, including
-single-crystal, powder, constant-wavelength, pink-beam and time-of-flight, lab, synchrotron,
-spallation and reactor sources, including Rietveld analysis.” [17]</p>
-</dd>
-<dt>Useful Links and Resources</dt><dd><p>The GSAS-II website includes developer documentation, tutorials, and source code.</p>
-</dd>
-</dl>
-</section>
-<section id="spice-graffiti">
-<h3>Spice/Graffiti<a class="headerlink" href="#spice-graffiti" title="Link to this heading"></a></h3>
-<dl class="simple">
-<dt>Overview</dt><dd><p>“SPICE is a LabVIEW based program designed for control of neutron scattering instruments.
-Currently, SPICE is being used on the HB1 and HB3 triple-axis spectrometers at the High Flux
-Isotope Reactor at Oak Ridge National Laboratory.” [18]</p>
-</dd>
-<dt>Useful Links and Resources</dt><dd><p>The Spice website includes introductions, user guides, downloads, and more.</p>
-</dd>
-</dl>
-</section>
-<section id="multiphonon">
-<h3>multiphonon<a class="headerlink" href="#multiphonon" title="Link to this heading"></a></h3>
-<dl class="simple">
-<dt>Overview</dt><dd><p>“Powder spectra measured by inelastic neutron spectrometers provide information such as phonon
-density of states (DOS), a fundamental property of a solid. The measured spectra, however, are
-two-dimensional in axes of Q (momentum transfer) and E (energy transfer). This code converts a
-S(Q,E) INS spectrum to DOS.” [19]</p>
-</dd>
-<dt>Useful Links and Resources</dt><dd><p>Documentation, github, examples</p>
+<dt>Useful Links and Resources</dt><dd><p>“Jscatter is a python package that provides useful models for neutron
+and X-ray scattering form factors, structure factors, and dynamic
+models (quasi elastic neutron scattering) and other topics.” [24]</p>
 </dd>
 </dl>
 </section>

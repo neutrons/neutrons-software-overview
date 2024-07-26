@@ -9,13 +9,7 @@ This includes information from the following SULI internship projects:
 ## Development Documentation
 
 ### Requirements
-```
-pip install sphinx
-
-# or
-
-conda install sphinx
-```
+sphinx-rtd-theme, sphinx, versioningit
 
 Recommended tools for development on VSCode. You can view a live preview of .rst files by installing the Preview extension: https://marketplace.visualstudio.com/items?itemName=searKing.preview-vscode.
 
@@ -23,6 +17,7 @@ Pycharm also has live preview ability with .rst files (the markdown files used w
 
 ### Instructions
 In the root repo, in the terminal:
+
 ```
 make clean
 make html
