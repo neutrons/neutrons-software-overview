@@ -5,6 +5,8 @@ Overview
 -----------------------------------
 USANS users are focused on .
 
+
+
 Data Reduction Process
 -----------------------------------
 They currently use two different scripts, drtsans and USANSRED. 
@@ -20,17 +22,60 @@ Overview
     flux, detector sensitivity, solid angle subtended by the detectors,
     and scaling to absolute units.” [26]
 
-Useful Links and Resources
-    * `Documentation <https://drtsans.readthedocs.io/en/latest/>`_
-    * `paper <https://www.sciencedirect.com/science/article/pii/S2352711022000681>`_
-    * `source code <https://drtsans.readthedocs.io/en/latest/>`_
 USANSRED
 ```````````````````````````````
 Overview
+    USANSRED is branched off from USANSDATA to be the data reduction section of the code.
 
-    USANSRED is branched off from USANSDATA to be the data reduction 
-    section of the code.
-Useful Links and Resources
+.. list-table:: USANS Reduction Software Links
+   :widths: 25 25 25 25 25 25 25
+   :header-rows: 1
 
-    There is a repository by the same name for the software with links to its
-    documentation.
+   * - Data Reduction 
+     - Software
+     - Documentation
+     - User Guide
+     - Source Code
+     - Paper
+     - Coding Language
+   * - 
+     - drtsans
+     - `Yes <https://drtsans.readthedocs.io/en/latest/>`_
+     - No
+     - `Yes <https://drtsans.readthedocs.io/en/latest/>`_
+     - `Yes <https://www.sciencedirect.com/science/article/pii/S2352711022000681>`_
+     - Python
+   * - 
+     - USANSRED
+     - `Yes <https://usansred.readthedocs.io/>`_
+     - `Yes <https://usansred.readthedocs.io/en/latest/>`_
+     - `Yes <https://github.com/neutrons/usansred>`_
+     - No
+     - Python
+
+Data Analysis Software
+----------------------------------
+USANSDATA
+```````````````````````````````
+Overview
+    USANSDATA is 
+
+.. list-table:: USANS Reduction Software Links
+   :widths: 25 25 25 25 25 25 25
+   :header-rows: 1
+
+   * - Data Reduction 
+     - Software
+     - Documentation
+     - User Guide
+     - Source Code
+     - Paper
+     - Coding Language
+   * - 
+     - USANSDATA
+     - No
+     - `Yes <https://code.ornl.gov/rys/usans-reduction/>`_
+     - `Yes <https://code.ornl.gov/rys/usans-reduction/>`_
+     - No
+     - Python
+
