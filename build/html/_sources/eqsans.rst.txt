@@ -65,7 +65,7 @@ Overview
     systems with size distributions, hierarchical structures,
     diffraction peaks, etc.” (`Irena Contributors <https://usaxs.xray.aps.anl.gov/software/irena>`_).
 Useful Links and Resources
-    * The AGL `website <https://usaxs.xray.aps.anl.gov/software/irena>`_ includes downloads, documentation, user info, source code, video tutorials, and more.
+    The AGL `website <https://usaxs.xray.aps.anl.gov/software/irena>`_ includes downloads, documentation, user info, source code, video tutorials, and more.
 
 
 BioXTAS RAW
@@ -76,7 +76,7 @@ Overview
     solution scattering (SAXS) data. The software is designed
     for biological SAXS data” (`BioXTAS Raw Contrubtors <https://bioxtas-raw.readthedocs.io/en/latest/>`_).
 Useful Links and Resources
-    * The BioXTAS `website <https://bioxtas-raw.readthedocs.io/en/latest/>`_ has installation, tutorials, manuals, documentation, and more.
+    The BioXTAS `website <https://bioxtas-raw.readthedocs.io/en/latest/>`_ has installation, tutorials, manuals, documentation, and more.
 
 IgorPro
 ```````````````````````````````
@@ -88,7 +88,7 @@ Overview
     more” (`WaveMetrics <https://www.wavemetrics.com/products/igorpro>`_).
 
 Useful Links and Resources
-    * The WaveMetrics `website <https://www.wavemetrics.com/>`_ includes downloads, case studies, manuals, and more.
+    The WaveMetrics `website <https://www.wavemetrics.com/>`_ includes downloads, case studies, manuals, and more.
 
 Origin/OriginPro
 ```````````````````````````````
@@ -99,7 +99,7 @@ Overview
     Surface Fitting, Statistics, Signal Processing and Image
     Handling” (`OriginLab <https://www.originlab.com/doc/en/User-Guide/GSB-Intro>`_).
 Useful Links and Resources
-    * The OriginLab `website <https://www.originlab.com/>`_ includes links to tutorials, list of apps, showcase, documentation, and more.
+    The OriginLab `website <https://www.originlab.com/>`_ includes links to tutorials, list of apps, showcase, documentation, and more.
 
 Grasp
 ```````````````````````````````
@@ -109,6 +109,5 @@ Overview
     detector data produced by the Small-Angle Neutron
     Scattering (SANS) instruments of the Institut Laue-Langevin (ILL)” (`Grasp Contributors <https://www.ill.eu/users/support-labs-infrastructure/software-scientific-tools/grasp>`_).
 Useful Links and Resources
-    * The ILL `website <https://www.ill.eu/users/support-labs-infrastructure/software-scientific-tools/grasp>`_ includes key
-    features, downloads, documentation, example data, and more.
+    The ILL `website <https://www.ill.eu/users/support-labs-infrastructure/software-scientific-tools/grasp>`_ includes key features, downloads, documentation, example data, and more.
 

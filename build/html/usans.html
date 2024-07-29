@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Small Angle Neutron Scattering - BIO-SANS &mdash; SHIVER 1.1.0 documentation</title>
+  <title>Small Angle Neutron Scattering - USANS &mdash; SHIVER 1.1.0 documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
       <link rel="stylesheet" type="text/css" href="_static/my_theme.css" />
@@ -22,8 +22,8 @@
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Small Angle Neutron Scattering - USANS" href="usans.html" />
-    <link rel="prev" title="Small Angle Neutron Scattering - EQ-SANS" href="eqsans.html" /> 
+    <link rel="next" title="Spectroscopy - Chemical Spectroscopy Group" href="spectroscopy_chemical.html" />
+    <link rel="prev" title="Small Angle Neutron Scattering - BIO-SANS" href="biosans.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -52,25 +52,23 @@
 <li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="reflectometry.html">Reflectometry</a></li>
 <li class="toctree-l1"><a class="reference internal" href="eqsans.html">Small Angle Neutron Scattering - EQ-SANS</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Small Angle Neutron Scattering - BIO-SANS</a><ul>
+<li class="toctree-l1"><a class="reference internal" href="biosans.html">Small Angle Neutron Scattering - BIO-SANS</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Small Angle Neutron Scattering - USANS</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#overview">Overview</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#data-reduction-process">Data Reduction Process</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#data-reduction-software">Data Reduction Software</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#mantid">Mantid</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#usansred">USANSRED</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#drt-sans">drt-sans</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#data-analysis-process">Data Analysis Process</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#data-analysis-software">Data Analysis Software</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#atsas">ATSAS</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#bioxtas-raw">BioXTAS RAW</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#sasview">SasView</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#igorpro">IgorPro</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#irena">Irena</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="usans.html">Small Angle Neutron Scattering - USANS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="spectroscopy_chemical.html">Spectroscopy - Chemical Spectroscopy Group</a></li>
 <li class="toctree-l1"><a class="reference internal" href="spectroscopy_dg_ta.html">Spectroscopy - Direct-Geometry and Triple-Axis Group</a></li>
 </ul>
@@ -89,9 +87,9 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">Small Angle Neutron Scattering - BIO-SANS</li>
+      <li class="breadcrumb-item active">Small Angle Neutron Scattering - USANS</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="_sources/biosans.rst.txt" rel="nofollow"> View page source</a>
+            <a href="_sources/usans.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -99,45 +97,38 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="small-angle-neutron-scattering-bio-sans">
-<h1>Small Angle Neutron Scattering - BIO-SANS<a class="headerlink" href="#small-angle-neutron-scattering-bio-sans" title="Link to this heading"></a></h1>
+  <section id="small-angle-neutron-scattering-usans">
+<h1>Small Angle Neutron Scattering - USANS<a class="headerlink" href="#small-angle-neutron-scattering-usans" title="Link to this heading"></a></h1>
 <section id="overview">
-<span id="biosans"></span><h2>Overview<a class="headerlink" href="#overview" title="Link to this heading"></a></h2>
-<p>Bio-SANS users are focused on Biology and biomaterials.</p>
+<span id="usans"></span><h2>Overview<a class="headerlink" href="#overview" title="Link to this heading"></a></h2>
 </section>
 <section id="data-reduction-process">
 <h2>Data Reduction Process<a class="headerlink" href="#data-reduction-process" title="Link to this heading"></a></h2>
-<p>They currently use jupyter scripts. Mantid is another way
-to do the reduction. The staff at ORNL use DRT-SANS to reduce the data.</p>
+<p>For USANS, there is the USANS data reduction package. DRT-SANS can also be used.</p>
 </section>
 <section id="data-reduction-software">
 <h2>Data Reduction Software<a class="headerlink" href="#data-reduction-software" title="Link to this heading"></a></h2>
-<section id="mantid">
-<h3>Mantid<a class="headerlink" href="#mantid" title="Link to this heading"></a></h3>
-<dl class="simple">
-<dt>Overview</dt><dd><p>“The Mantid project provides a framework that supports high-
-performance computing and visualization of scientific data.
-Mantid has been created to manipulate and analyze Neutron
-and Muon scattering data but could be applied to many other
-techniques” (<a class="reference external" href="https://mantidproject.org/Mantid_About.html">Mantid Contributors</a>).</p>
-</dd>
-</dl>
+<section id="usansred">
+<h3>USANSRED<a class="headerlink" href="#usansred" title="Link to this heading"></a></h3>
 <p>Useful Links and Resources
-* The Mantid <a class="reference external" href="https://www.mantidproject.org/">website</a> includes downloads, tutorials, user documentation, developer documentation, and more.</p>
+* <a class="reference external" href="https://usansred.readthedocs.io/en/latest/">Documentation</a>
+* <a class="reference external" href="https://github.com/neutrons/usansred">Github</a>
+* <a class="reference external" href="https://code.ornl.gov/rys/usans-reduction/">ORNL Source Code</a></p>
 </section>
 <section id="drt-sans">
 <h3>drt-sans<a class="headerlink" href="#drt-sans" title="Link to this heading"></a></h3>
 <dl class="simple">
-<dt>Overview</dt><dd><p>“Instrument scientists can calibrate instruments and reduce
-large quantities of datasets. Users can correct the collected data
-with dark current subtraction and normalization by neutron
-flux, detector sensitivity, solid angle subtended by the detectors,
-and scaling to absolute units.” [26]</p>
+<dt>Overview</dt><dd><p>“Instrument scientists can calibrate instruments and reduce large
+quantities of datasets. Users can correct the collected data with dark
+current subtraction and normalization by neutron flux, detector
+sensitivity, solid angle subtended by the detectors, and scaling to
+absolute units. Lastly, conversion from time-of-flight and/or
+wavelength to 1D or 2D momentum to prepare for analysis” (<a class="reference external" href="https://www.osti.gov/biblio/1839359">drt-sans Contributors</a>).</p>
 </dd>
 <dt>Useful Links and Resources</dt><dd><ul class="simple">
 <li><p><a class="reference external" href="https://drtsans.readthedocs.io/en/latest/">Documentation</a></p></li>
-<li><p><a class="reference external" href="https://www.sciencedirect.com/science/article/pii/S2352711022000681">paper</a></p></li>
-<li><p><cite>source code &lt;https://drtsans.readthedocs.io/en/latest/&gt;</cite></p></li>
+<li><p><a class="reference external" href="https://www.sciencedirect.com/science/article/pii/S2352711022000681">Paper</a></p></li>
+<li><p><a class="reference external" href="https://code.ornl.gov/sns-hfir-scse/sans/sans-backend">Source Code</a></p></li>
 </ul>
 </dd>
 </dl>
@@ -145,41 +136,13 @@ and scaling to absolute units.” [26]</p>
 </section>
 <section id="data-analysis-process">
 <h2>Data Analysis Process<a class="headerlink" href="#data-analysis-process" title="Link to this heading"></a></h2>
-<p>A large proportion of users are dependent on the instrument scientists to do the
-analysis for them. There are a lot of software that can be used. A few examples are
-ATSAS, BioXTAS RAW, SasView, and Igor. ATSAS is a biological databank.
-BIOXTAS RAW can do Guinier analysis. SasView is used for shape-dependent
-analysis. Igor has a higher learning curve but is well-established in the field.</p>
+<p>There is software that is reaching the end of its lifecycle such IRENA, which is a
+suite of Igor Pro. However, SASView is the industry standard for data analysis with
+SANS instruments. You can hook SASView with Tensorflow or Pytorch, but there is
+no known documentation on this.</p>
 </section>
 <section id="data-analysis-software">
 <h2>Data Analysis Software<a class="headerlink" href="#data-analysis-software" title="Link to this heading"></a></h2>
-<section id="atsas">
-<h3>ATSAS<a class="headerlink" href="#atsas" title="Link to this heading"></a></h3>
-<dl class="simple">
-<dt>Overview</dt><dd><p>“The ATSAS software suite encompasses a number of
-programs for the processing, visualization, analysis and
-modelling of small-angle scattering data, with a focus
-on the data measured from biological macromolecules” (<a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/33833657/">ATSAS Paper</a>).</p>
-</dd>
-<dt>Useful Links and Resources</dt><dd><p>The <a class="reference external" href="https://www.embl-hamburg.de/biosaxs/software.html">EMBL Hamburg website</a> has
-downloads, tutorials, manuals, a paper, and more.</p>
-</dd>
-</dl>
-</section>
-<section id="bioxtas-raw">
-<h3>BioXTAS RAW<a class="headerlink" href="#bioxtas-raw" title="Link to this heading"></a></h3>
-<dl class="simple">
-<dt>Overview</dt><dd><p>“BioXTAS RAW is a GUI based, free, open-source
-Python program for reduction and analysis of small-
-angle X-ray solution scattering (SAXS) data. The
-software is designed for biological SAXS data” (<a class="reference external" href="https://bioxtas-raw.readthedocs.io/en/latest/">BioXTAS RAW Contributors</a>).</p>
-</dd>
-<dt>Useful Links and Resources</dt><dd><p>The <a class="reference external" href="https://bioxtas-raw.readthedocs.io/en/latest/">BioXTAS website</a> has
-installation, tutorials, manuals,
-documentation, and more.</p>
-</dd>
-</dl>
-</section>
 <section id="sasview">
 <h3>SasView<a class="headerlink" href="#sasview" title="Link to this heading"></a></h3>
 <dl class="simple">
@@ -194,18 +157,18 @@ small angle scattering data” (<a class="reference external" href="https://www.
 </dd>
 </dl>
 </section>
-<section id="igorpro">
-<h3>IgorPro<a class="headerlink" href="#igorpro" title="Link to this heading"></a></h3>
+<section id="irena">
+<h3>Irena<a class="headerlink" href="#irena" title="Link to this heading"></a></h3>
 <dl class="simple">
-<dt>Overview</dt><dd><p>“IgorPro is an interactive software environment for
-experimentation with scientific and engineering data. Igor
-provides many analysis capabilities, including curve fitting,
-peak analysis, signal processing and statistics, and much
-more” (<a class="reference external" href="https://www.wavemetrics.com/products/igorpro">WaveMetrics</a>).</p>
+<dt>Overview</dt><dd><p>“Irena is data manipulations and analysis toolbox for small-
+angle scattering (SAXS, SANS, USAXS, USANS) data. It is
+mostly used for analysis of data in materials science,
+chemistry, polymers, metallurgy, physics, and other systems
+of typically solid or liquid samples. It addresses complex
+systems with size distributions, hierarchical structures,
+diffraction peaks, etc.” (<a class="reference external" href="https://usaxs.xray.aps.anl.gov/software/irena">Irena Contributors</a>).</p>
 </dd>
-<dt>Useful Links and Resources</dt><dd><ul class="simple">
-<li><p>The WaveMetrics <a class="reference external" href="https://www.wavemetrics.com/">website</a> includes downloads, case studies, manuals, and more.</p></li>
-</ul>
+<dt>Useful Links and Resources</dt><dd><p>The AGL <a class="reference external" href="https://usaxs.xray.aps.anl.gov/software/irena">website</a> includes downloads, documentation, user info, source code, video tutorials, and more.</p>
 </dd>
 </dl>
 </section>
@@ -216,8 +179,8 @@ more” (<a class="reference external" href="https://www.wavemetrics.com/product
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="eqsans.html" class="btn btn-neutral float-left" title="Small Angle Neutron Scattering - EQ-SANS" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="usans.html" class="btn btn-neutral float-right" title="Small Angle Neutron Scattering - USANS" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="biosans.html" class="btn btn-neutral float-left" title="Small Angle Neutron Scattering - BIO-SANS" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="spectroscopy_chemical.html" class="btn btn-neutral float-right" title="Spectroscopy - Chemical Spectroscopy Group" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

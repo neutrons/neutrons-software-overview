@@ -16,6 +16,7 @@ Contents
    reflectometry
    eqsans
    biosans
+   usans
    spectroscopy_chemical
    spectroscopy_dg_ta
 
