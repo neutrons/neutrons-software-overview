@@ -27,12 +27,10 @@ Useful Links and Resources
 USANSRED
 ```````````````````````````````
 Overview
--------------
+
     USANSRED is branched off from USANSDATA to be the data reduction 
     section of the code.
 Useful Links and Resources
--------------
+
     There is a repository by the same name for the software with links to its
     documentation.
-    * `Documentation <https://usansred.readthedocs.io/en/latest/>`_
-    * `source code <https://github.com/neutrons/usansred>`
