@@ -37,7 +37,7 @@
             SHIVER
           </a>
               <div class="version">
-                1.1.0.dev9+d202407261753
+                1.1.0.dev9+d202407291310
               </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
@@ -50,6 +50,8 @@
               <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="reflectometry.html">Reflectometry</a></li>
+<li class="toctree-l1"><a class="reference internal" href="eqsans.html">Small Angle Neutron Scattering - EQ-SANS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="biosans.html">Small Angle Neutron Scattering - BIO-SANS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="spectroscopy_chemical.html">Spectroscopy - Chemical Spectroscopy Group</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Spectroscopy - Direct-Geometry and Triple-Axis Group</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#data-reduction-process">Data Reduction Process</a></li>
@@ -66,7 +68,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#phonopy">Phonopy</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#gsas-ii">GSAS-II</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#spice-graffiti">Spice/Graffiti</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#multiphonon">multiphonon</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#multiphonon">Multiphonon</a></li>
 </ul>
 </li>
 </ul>
@@ -118,35 +120,44 @@ is important for single crystal, 3D structure.</p>
 <dl class="simple">
 <dt>Overview</dt><dd><p>“The main objective of DAVE is to provide a user friendly tool for
 scientists involved in neutron scattering research to quickly reduce,
-visualize and interpret their data” [11]</p>
+visualize and interpret their data” <a class="reference external" href="https://www.ncnr.nist.gov/dave/">(NIST Center for Neutron Research, 2010)</a>.</p>
 </dd>
-<dt>Useful Links and Resources</dt><dd><p>The Dave website includes links to user manuals, paper, documentation,
+<dt>Useful Links and Resources</dt><dd><p>The Dave <a class="reference external" href="https://www.ncnr.nist.gov/dave/">website</a> includes links to user manuals, paper, documentation,
 course notes, downloads, features, screenshots, changelogs, and more.</p>
 </dd>
 </dl>
 </section>
 <section id="shiver">
 <h3>Shiver<a class="headerlink" href="#shiver" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p>“Tool (desktop application) for allowing the examination of Time of Flightchat
+(ToF) inelastic neutron data, from single crystal, direct geometry
+experiments” (<a class="reference external" href="https://github.com/neutrons/Shiver/blob/next/README.md">Shiver Contributors</a>).</p>
+</div></blockquote>
 <dl class="simple">
-<dt>Overview</dt><dd><p>“The main objective of DAVE is to provide a user friendly tool for
-scientists involved in neutron scattering research to quickly reduce,
-visualize and interpret their data” [11]</p>
-</dd>
-<dt>Useful Links and Resources</dt><dd><p>“Tool (desktop application) for allowing the examination of Time of
-Flight (ToF) inelastic neutron data, from single crystal, direct
-geometry experiments.” [12]</p>
+<dt>Useful Links and Resources</dt><dd><p><a class="reference external" href="https://neutrons.github.io/Shiver/">User documentation</a>,
+<a class="reference external" href="https://shiver.readthedocs.io/en/latest/index.html">developer documentation</a>,
+<a class="reference external" href="https://github.com/neutrons/Shiver">source code</a>.
+Can also be accessed by the command ‘shiver’ on the <a class="reference external" href="https://analysis.sns.gov/">analysis cluster</a>.</p>
 </dd>
 </dl>
 </section>
 <section id="horace">
 <h3>Horace<a class="headerlink" href="#horace" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p>“Horace is a suite of programs for the visualization and analysis of large
+datasets from time-of-flight neutron inelastic scattering spectrometers”
+(<a class="reference external" href="https://github.com/pace-neutrons/Horace">Horace Contributors</a>).</p>
+</div></blockquote>
 <dl class="simple">
-<dt>Overview</dt><dd><p>“Horace is a suite of programs for the visualization and analysis of large
-datasets from time-of-flight neutron inelastic scattering spectrometers.” [13]</p>
-</dd>
-<dt>Useful Links and Resources</dt><dd><p>User documentation, developer documentation, source code, examples, local
-installation. To use in the analysis cluster, open Matlab, then type ‘horace’
-in the command line.</p>
+<dt>Useful Links and Resources</dt><dd><ul class="simple">
+<li><p><a class="reference external" href="https://pace-neutrons.github.io/Horace/v3.6.4/">User documentation</a></p></li>
+<li><p><a class="reference external" href="https://pace-neutrons.github.io/Horace/v3.6.4/Developers.html">Developer documentation</a></p></li>
+<li><p><a class="reference external" href="https://github.com/pace-neutrons/Horace">Source Code</a></p></li>
+<li><p><a class="reference external" href="https://pace-neutrons.github.io/Horace/v3.6.4/user_guide/Example_scripts.html">Examples</a></p></li>
+<li><p><a class="reference external" href="https://pace-neutrons.github.io/Horace/v3.6.4/introduction/Download_and_setup.html#installation-instructions">Local Installation</a></p></li>
+<li><p>To use in the <a class="reference external" href="http://analysis.sns.gov/">analysis cluster</a>, open Matlab, then type ‘horace’ in the command line.</p></li>
+</ul>
 </dd>
 </dl>
 </section>
@@ -165,10 +176,13 @@ perspective may be relevant.</p>
 <dl class="simple">
 <dt>Overview</dt><dd><p>“SpinW is a MATLAB, Python, and C++ library that can plot and numerically
 simulate magnetic structures and excitations of given spin Hamiltonian using
-classical Monte Carlo simulation and linear spin wave theory.” [14]</p>
+classical Monte Carlo simulation and linear spin wave theory” (<a class="reference external" href="https://github.com/spinw">SpinW Contributors</a>).</p>
 </dd>
-<dt>Useful Links and Resources</dt><dd><p>Source code, official documentation. The SpinW website also includes documentation,
-installation instructions, tutorials, publications, presentations, and more.</p>
+<dt>Useful Links and Resources</dt><dd><ul class="simple">
+<li><p>Source code</p></li>
+<li><p>Official Documentation</p></li>
+<li><p>The <a class="reference external" href="https://spinw.org/">SpinW website</a> also includes documentation, installation instructions, tutorials, publications, presentations, and more.</p></li>
+</ul>
 </dd>
 </dl>
 </section>
@@ -178,9 +192,12 @@ installation instructions, tutorials, publications, presentations, and more.</p>
 <dt>Overview</dt><dd><p>“Sunny is a Julia package for modeling atomic-scale magnetism. It provides powerful
 tools to study equilibrium and non-equilibrium magnetic phenomena. In particular, it
 allows estimation of dynamical structure factor intensities, S(q,w), to support quantitative
-modeling of experimental scattering data.” [15]</p>
+modeling of experimental scattering dat” (<a class="reference external" href="https://github.com/SunnySuite/Sunny.jl">Sunny Contributors</a>).</p>
 </dd>
-<dt>Useful Links and Resources</dt><dd><p>Documentation, github</p>
+<dt>Useful Links and Resources</dt><dd><ul class="simple">
+<li><p><a class="reference external" href="https://sunnysuite.github.io/Sunny.jl/dev/index.html">Documentation</a></p></li>
+<li><p><a class="reference external" href="https://github.com/SunnySuite/Sunny.jl">Github</a></p></li>
+</ul>
 </dd>
 </dl>
 </section>
@@ -188,9 +205,11 @@ modeling of experimental scattering data.” [15]</p>
 <h3>Phonopy<a class="headerlink" href="#phonopy" title="Link to this heading"></a></h3>
 <dl class="simple">
 <dt>Overview</dt><dd><p>“Phono3py is another open source package for phonon-phonon interaction and lattice thermal
-conductivity calculations.” [16]</p>
+conductivity calculations” (<a class="reference external" href="https://phonopy.github.io/phonopy/">Phono3py Contributors</a>).</p>
 </dd>
-<dt>Useful Links and Resources</dt><dd><p>The Phonopy website includes guides, documentation, features, and more.</p>
+<dt>Useful Links and Resources</dt><dd><ul class="simple">
+<li><p>The <a class="reference external" href="https://phonopy.github.io/phonopy/">Phonopy website</a> includes guides, documentation, features, and more.</p></li>
+</ul>
 </dd>
 </dl>
 </section>
@@ -199,9 +218,9 @@ conductivity calculations.” [16]</p>
 <dl class="simple">
 <dt>Overview</dt><dd><p>“GSAS-II is used to analyze all types of x-ray and neutron diffraction data, including
 single-crystal, powder, constant-wavelength, pink-beam and time-of-flight, lab, synchrotron,
-spallation and reactor sources, including Rietveld analysis.” [17]</p>
+spallation and reactor sources, including Rietveld analysis” (<a class="reference external" href="https://github.com/AdvancedPhotonSource/GSAS-II">GSAS-II Contributors</a>).</p>
 </dd>
-<dt>Useful Links and Resources</dt><dd><p>The GSAS-II website includes developer documentation, tutorials, and source code.</p>
+<dt>Useful Links and Resources</dt><dd><p>The <a class="reference external" href="https://gsas-ii.readthedocs.io/en/latest/">GSAS-II website</a> includes developer documentation, tutorials, and source code.</p>
 </dd>
 </dl>
 </section>
@@ -210,21 +229,27 @@ spallation and reactor sources, including Rietveld analysis.” [17]</p>
 <dl class="simple">
 <dt>Overview</dt><dd><p>“SPICE is a LabVIEW based program designed for control of neutron scattering instruments.
 Currently, SPICE is being used on the HB1 and HB3 triple-axis spectrometers at the High Flux
-Isotope Reactor at Oak Ridge National Laboratory.” [18]</p>
+Isotope Reactor at Oak Ridge National Laboratory” (<a class="reference external" href="https://neutron.ornl.gov/spice/">Spice Contributors</a>).</p>
 </dd>
-<dt>Useful Links and Resources</dt><dd><p>The Spice website includes introductions, user guides, downloads, and more.</p>
+<dt>Useful Links and Resources</dt><dd><ul class="simple">
+<li><p>The <a class="reference external" href="https://neutron.ornl.gov/spice/">Spice website</a> includes introductions, user guides, downloads, and more.</p></li>
+</ul>
 </dd>
 </dl>
 </section>
 <section id="multiphonon">
-<h3>multiphonon<a class="headerlink" href="#multiphonon" title="Link to this heading"></a></h3>
+<h3>Multiphonon<a class="headerlink" href="#multiphonon" title="Link to this heading"></a></h3>
 <dl class="simple">
 <dt>Overview</dt><dd><p>“Powder spectra measured by inelastic neutron spectrometers provide information such as phonon
 density of states (DOS), a fundamental property of a solid. The measured spectra, however, are
 two-dimensional in axes of Q (momentum transfer) and E (energy transfer). This code converts a
-S(Q,E) INS spectrum to DOS.” [19]</p>
+S(Q,E) INS spectrum to DOS” (<a class="reference external" href="https://github.com/neutrons/multiphonon">Multiphonon Contributors</a>).</p>
 </dd>
-<dt>Useful Links and Resources</dt><dd><p>Documentation, github, examples</p>
+<dt>Useful Links and Resources</dt><dd><ul class="simple">
+<li><p><a class="reference external" href="https://multiphonon.readthedocs.io/en/latest/index.html">Documentation</a></p></li>
+<li><p><a class="reference external" href="https://github.com/neutrons/multiphonon">Github</a></p></li>
+<li><p><a class="reference external" href="https://github.com/neutrons/multiphonon/blob/next/examples/README.md">Examples</a></p></li>
+</ul>
 </dd>
 </dl>
 </section>

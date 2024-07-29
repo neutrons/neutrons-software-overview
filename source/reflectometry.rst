@@ -2,6 +2,4 @@
 
 Reflectometry
 ==================================
-asdfasdfasdfa
-asdfasdfasdfa
 

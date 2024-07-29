@@ -3,11 +3,6 @@
 
 Welcome to a Software Introduction Used for Neutron Sciences at HFIR & SNS at ORNL!
 ==================================
-* Diffraction
-* Imaging
-* Reflectometry
-* Small Angle Neutron Scattering (SANS)
-* Spectroscopy
 
 Contents
 --------
@@ -19,7 +14,8 @@ Contents
    diffraction
    imaging
    reflectometry
+   eqsans
+   biosans
    spectroscopy_chemical
    spectroscopy_dg_ta
-   ndip_reduction_plan
 

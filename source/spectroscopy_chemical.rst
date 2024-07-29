@@ -39,7 +39,7 @@ Overview
     “The Mantid project provides a framework that supports high-performance 
     computing and visualization of scientific data. Mantid has been created 
     to manipulate and analyze Neutron and Muon scattering data but could be 
-    applied to many other techniques.” [21]
+    applied to many other techniques” (`Mantid Contributors <https://mantidproject.org/Mantid_About.html>`_).
 Useful Links and Resources
     The Mantid website includes downloads, tutorials, user documentation, 
     developer documentation, and more.
@@ -48,11 +48,10 @@ DrSPINE
 ```````````````````````````````
 Overview
     “DrSPINE is a software package that performs data reduction and analysis 
-    for reactor and pulsed source based Neutron Spin Echo experiments.” [22]
+    for reactor and pulsed source based Neutron Spin Echo experiments” (`DrSPINE Contributors <https://jugit.fz-juelich.de/nse/drspine/-/tree/pztest>`_).
 
 Useful Links and Resources
-    “DrSPINE is a software package that performs data reduction and analysis 
-    for reactor and pulsed source based Neutron Spin Echo experiments.” [22]
+    The `gitlab <https://jugit.fz-juelich.de/nse/drspine/-/tree/pztest>`_ includes manuals, guides, source code, and papers.
 
 Data Analysis Process
 -----------------------------------
@@ -72,11 +71,10 @@ analyzing lattice dynamics, phonon calculations.
 Oclimax
 ```````````````````````````````
 Overview
-    “A program for the calculation of inelastic nuclear scattering.” [23]
+    “A program for the calculation of inelastic nuclear scattering” (`Cheng, 2018 <https://neutrons.ornl.gov/sites/default/files/2018-NXS_Lecture_YQCheng_2.pdf>`_).
 
 Useful Links and Resources
-    Website. An introduction, examples, and installation can be found in 
-    this presentation.
+    `Website <https://sites.google.com/site/ornliceman/oclimax>`_. An introduction, examples, and installation can be found in this `presentation <https://neutrons.ornl.gov/sites/default/files/2018-NXS_Lecture_YQCheng_2.pdf>`_.
 
 JScatter
 ```````````````````````````````
@@ -84,9 +82,7 @@ JScatter
 Overview
     “Jscatter is a python package that provides useful models for neutron 
     and X-ray scattering form factors, structure factors, and dynamic 
-    models (quasi elastic neutron scattering) and other topics.” [24]
+    models (quasi elastic neutron scattering) and other topics” (`JScatter Contributors <https://pypi.org/project/jscatter/>`_).
 
 Useful Links and Resources
-    “Jscatter is a python package that provides useful models for neutron 
-    and X-ray scattering form factors, structure factors, and dynamic 
-    models (quasi elastic neutron scattering) and other topics.” [24]
+    The `website <https://pypi.org/project/jscatter/>`_ includes guides, documentation, examples, installation, and more.
