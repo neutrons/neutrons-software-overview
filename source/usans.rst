@@ -1,4 +1,4 @@
-Small Angle Neutron Scattering - USANS
+Small Angle Neutron Scattering - Ultra Small Angle Neutron Scattering (USANS)
 ==================================
 
 Overview
@@ -23,7 +23,7 @@ Overview
 Useful Links and Resources
     * `Documentation <https://drtsans.readthedocs.io/en/latest/>`_
     * `paper <https://www.sciencedirect.com/science/article/pii/S2352711022000681>`_
-    * `source code <https://drtsans.readthedocs.io/en/latest/>`
+    * `source code <https://drtsans.readthedocs.io/en/latest/>`_
 USANSRED
 ```````````````````````````````
 Overview
