@@ -18,8 +18,8 @@ sys.path.insert(0, os.path.abspath("../../"))
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = "SHIVER"  # pylint: disable=C0103
-copyright = "2023, ORNL"  # pylint: disable=W0622, C0103
+project = "Neutron Science Software at ORNL"  # pylint: disable=C0103
+copyright = "2024, ORNL"  # pylint: disable=W0622, C0103
 author = "ORNL"  # pylint: disable=C0103
 version = versioningit.get_version("../../")
 release = ".".join(version.split(".")[:-1])  # pylint: disable=C0103
@@ -76,5 +76,6 @@ epub_show_urls = "footnote"  # pylint: disable=C0103
 
 html_static_path = ['_static'] 
 
-def setup(app):
-    app.add_css_file('my_theme.css')
+html_css_files = [
+    'css/custom.css',
+]

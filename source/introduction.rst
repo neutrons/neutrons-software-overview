@@ -31,9 +31,6 @@ Data Reduction Definition
     to perform mostly automatic reduction to S(detector,ω) – the transformation to S(Q,ω) is 
     performed manually in either MSlice, Horace, or Mantid. ” [7]
 
-References
-
-
 Triple-Axis (CTAX, PTAX, TAX, & VERITAS)
 ```````````````````````````````
 Data Reduction Definition
