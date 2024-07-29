@@ -28,7 +28,7 @@ Overview
     USANSRED is branched off from USANSDATA to be the data reduction section of the code.
 
 .. list-table:: USANS Reduction Software Links
-   :widths:  25 25 25 25 25 25
+   :widths:  25 25 25 25 25
    :header-rows: 1
 
    * - Software
