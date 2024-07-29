@@ -28,25 +28,22 @@ Overview
     USANSRED is branched off from USANSDATA to be the data reduction section of the code.
 
 .. list-table:: USANS Reduction Software Links
-   :widths: 25 25 25 25 25 25 25
+   :widths:  25 25 25 25 25 25
    :header-rows: 1
 
-   * - Data Reduction 
-     - Software
+   * - Software
      - Documentation
      - User Guide
      - Source Code
      - Paper
      - Coding Language
-   * - 
-     - drtsans
+   * - drtsans
      - `Yes <https://drtsans.readthedocs.io/en/latest/>`_
      - No
      - `Yes <https://drtsans.readthedocs.io/en/latest/>`_
      - `Yes <https://www.sciencedirect.com/science/article/pii/S2352711022000681>`_
      - Python
-   * - 
-     - USANSRED
+   * - USANSRED
      - `Yes <https://usansred.readthedocs.io/>`_
      - `Yes <https://usansred.readthedocs.io/en/latest/>`_
      - `Yes <https://github.com/neutrons/usansred>`_
@@ -60,19 +57,17 @@ USANSDATA
 Overview
     USANSDATA is 
 
-.. list-table:: USANS Reduction Software Links
+.. list-table:: USANS Analysis Software Links
    :widths: 25 25 25 25 25 25 25
    :header-rows: 1
 
-   * - Data Reduction 
-     - Software
+   * - Software
      - Documentation
      - User Guide
      - Source Code
      - Paper
      - Coding Language
-   * - 
-     - USANSDATA
+   * - USANSDATA
      - No
      - `Yes <https://code.ornl.gov/rys/usans-reduction/>`_
      - `Yes <https://code.ornl.gov/rys/usans-reduction/>`_
