@@ -40,7 +40,28 @@ Useful Links and Resources
     * `Documentation <https://drtsans.readthedocs.io/en/latest/>`_
     * `paper <https://www.sciencedirect.com/science/article/pii/S2352711022000681>`_
     * `source code <https://drtsans.readthedocs.io/en/latest/>`
+.. list-table:: BIO-SANS Data Reduction Software Links
+   :widths: 25 25 25 25 25 25
+   :header-rows: 1
 
+   * - Software
+     - Documentation
+     - User Guide
+     - Source Code
+     - Paper
+     - Coding Language
+   * - Mantid
+     - `Yes <https://developer.mantidproject.org/>`_
+     - `Yes <https://docs.mantidproject.org/nightly/>`_
+     - `Yes <https://github.com/mantidproject/mantid>`_
+     - `Yes <https://ieeexplore.ieee.org/document/9377836>`_
+     - C++ and Python
+   * - drtSANS
+     - `Yes <https://drtsans.readthedocs.io/en/latest/>`_
+     - No
+     - `Yes <https://drtsans.readthedocs.io/en/latest/>`_
+     - `Yes <https://www.sciencedirect.com/science/article/pii/S2352711022000681>`_
+     - Python
 Data Analysis Process
 -----------------------------------
 A large proportion of users are dependent on the instrument scientists to do the
