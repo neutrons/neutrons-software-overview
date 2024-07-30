@@ -34,6 +34,22 @@ Useful Links and Resources
     * `Documentation <https://drtsans.readthedocs.io/en/latest/>`_
     * `Paper <https://www.sciencedirect.com/science/article/pii/S2352711022000681>`_
     * `Source Code <https://code.ornl.gov/sns-hfir-scse/sans/sans-backend>`_
+.. list-table:: EQ-SANS Reduction Software Links
+   :widths:  25 25 25 25 25 25
+   :header-rows: 1
+
+   * - Software
+     - Documentation
+     - User Guide
+     - Source Code
+     - Paper
+     - Coding Language
+   * - drtsans
+     - `Yes <https://drtsans.readthedocs.io/en/latest/>`_
+     - No
+     - `Yes <https://drtsans.readthedocs.io/en/latest/>`_
+     - `Yes <https://www.sciencedirect.com/science/article/pii/S2352711022000681>`_
+     - Python
 
 Data Analysis Process
 -----------------------------------
@@ -111,3 +127,49 @@ Overview
 Useful Links and Resources
     The ILL `website <https://www.ill.eu/users/support-labs-infrastructure/software-scientific-tools/grasp>`_ includes key features, downloads, documentation, example data, and more.
 
+.. list-table:: BIO-SANS Data Analysis Software Links
+   :widths: 25 25 25 25 25 25
+   :header-rows: 1
+
+   * - Software
+     - Documentation
+     - User Guide
+     - Source Code
+     - Paper
+     - Coding Language
+   * - SasView
+     - `Yes <https://www.sasview.org/documentation>`_
+     - `Yes <https://www.sasview.org/documentation>`_
+     - `Yes <https://github.com/SasView/sasview>`_
+     - No
+     - Python
+   * - IRENA
+     - `Yes <https://usaxs.xray.aps.anl.gov/software/irena>`_
+     - `Yes <http://saxs-igorcodedocs.readthedocs.io/>`_
+     - `Yes <https://github.com/jilavsky/SAXS_IgorCode>`_
+     - `Yes <https://journals.iucr.org/paper?S0021889809002222>`_
+     - IgorPro
+   * - BIOXTAS RAW
+     - `Yes <https://bioxtas-raw.readthedocs.io>`_
+     - `Yes <https://bioxtas-raw.readthedocs.io/en/latest/tutorial.html>`_
+     - `Yes <https://github.com/jbhopkins/bioxtasraw>`_
+     - `Yes <https://journals.iucr.org/paper?S0021889809023863>`_
+     - Python
+   * - IgorPro
+     - No
+     - `Yes <https://www.wavemetrics.com/support>`_
+     - `Yes <https://www.wavemetrics.com/downloads/current>`_
+     - No
+     - Igor
+   * - Origin
+     - `Yes <https://www.originlab.com/doc/>`_
+     - `Yes <https://www.originlab.com/doc/User-Guide>`_
+     - `Yes <https://www.originlab.com/index.aspx?go=PRODUCTS/Origin>`_
+     - No
+     - Unknown
+   * - Grasp
+     - `Yes <https://www.ill.eu/users/support-labs-infrastructure/software-scientific-tools/grasp>`_
+     - `Yes <https://www.ill.eu/fileadmin/user_upload/ILL/3_Users/Scientific_groups/Large_Scale_Structures/Grasp/Download/grasp_manual.pdf>`_
+     - `Yes <https://www.ill.eu/users/support-labs-infrastructure/software-scientific-tools/grasp>`_
+     - `Yes <https://journals.iucr.org/j/issues/2023/05/00/jl5070/index.html>`_
+     - Python
