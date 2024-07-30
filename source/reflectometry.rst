@@ -86,6 +86,37 @@ Overview
 Useful Links and Resources
     `Source code <https://github.com/neutrons/RefRed>`_.
 
+.. list-table:: Reflectometry Data Reduction Software Links
+   :widths: 25 25 25 25  25
+   :header-rows: 1
+
+   * - Software
+     - Documentation
+     - User Guide
+     - Source Code
+     - Coding Language
+   * - MagnetismReflectometer
+     - `Yes <https://mr-reduction.readthedocs.io>`_
+     - No
+     - `Yes <https://github.com/neutrons/MagnetismReflectometer>`_
+     - Python
+   * - QuickNXS
+     - No
+     - `Yes <https://sns.gov/sites/default/files/Magnetism-Reflectometer-Data-Reduction-Manual.pdf>`_
+     - `Yes <https://github.com/aglavic/quicknxs>`_
+     - Python
+   * - LiquidsReflectometer
+     - No
+     - No
+     - `Yes <https://github.com/neutrons/LiquidsReflectometer>`_
+     - Python
+   * - RefRed
+     - No
+     - No
+     - `Yes <https://github.com/neutrons/RefRed>`_
+     - Python
+
+
 Data Analysis Software
 -----------------------------------
 
@@ -135,3 +166,34 @@ Useful Links and Resources
 ```````````````````````````````
 The `refnx website <https://refnx.readthedocs.io/en/latest/>`_ includes installation, getting started, examples, API reference, and source code.
 
+<<<<<<< HEAD
+=======
+.. list-table:: Reflectometry Data Analysis Software Links
+   :widths: 25 25 25 25 25 25
+   :header-rows: 1
+
+   * - Software
+     - Documentation
+     - User Guide
+     - Source Code
+     - Paper
+     - Coding Language
+   * - Refl1D
+     - `Yes <https://refl1d.readthedocs.io/en/latest/>`_
+     - `Yes <https://refl1d.readthedocs.io/en/latest/tutorial/index.html>`_
+     - `Yes <https://github.com/reflectometry/refl1d>`_
+     - No
+     - Python
+   * - Refnx
+     - `Yes <https://refnx.readthedocs.io/en/latest/index.html>`_
+     - `Yes <https://refnx.readthedocs.io/en/latest/getting_started.html>`_
+     - `Yes <https://github.com/refnx/refnx/tree/main>`_
+     - No
+     - Python
+   * - Genx
+     - `Yes <https://aglavic.github.io/genx/doc/>`_
+     - `Yes <https://aglavic.github.io/genx/howtouse.html>`_
+     - `Yes <https://github.com/aglavic/genx>`_
+     - `Yes <https://journals.iucr.org/j/issues/2022/04/00/ge5118/index.html>`_
+     - Python
+>>>>>>> 68a1cadee658cd6526b6158f2ba8023fa828402b
