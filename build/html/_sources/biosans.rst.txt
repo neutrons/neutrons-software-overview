@@ -97,4 +97,4 @@ Overview
     more” (`WaveMetrics <https://www.wavemetrics.com/products/igorpro>`_).
 
 Useful Links and Resources
-    * The WaveMetrics `website <https://www.wavemetrics.com/>`_ includes downloads, case studies, manuals, and more.
+    The WaveMetrics `website <https://www.wavemetrics.com/>`_ includes downloads, case studies, manuals, and more.

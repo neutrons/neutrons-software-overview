@@ -33,25 +33,12 @@ that is used is DrSpine.
 Data Reduction Software
 -----------------------------------
 
-Mantid
-```````````````````````````````
-Overview
-    “The Mantid project provides a framework that supports high-performance 
-    computing and visualization of scientific data. Mantid has been created 
-    to manipulate and analyze Neutron and Muon scattering data but could be 
-    applied to many other techniques” (`Mantid Contributors <https://mantidproject.org/Mantid_About.html>`_).
-Useful Links and Resources
-    The Mantid website includes downloads, tutorials, user documentation, 
-    developer documentation, and more.
+.. csv-table:: Configuration options
+   :header-rows: 1
 
-DrSPINE
-```````````````````````````````
-Overview
-    “DrSPINE is a software package that performs data reduction and analysis 
-    for reactor and pulsed source based Neutron Spin Echo experiments” (`DrSPINE Contributors <https://jugit.fz-juelich.de/nse/drspine/-/tree/pztest>`_).
-
-Useful Links and Resources
-    The `gitlab <https://jugit.fz-juelich.de/nse/drspine/-/tree/pztest>`_ includes manuals, guides, source code, and papers.
+   "Name", "Overview", "Useful Links and Resources"
+   "Mantid", "The Mantid project provides a framework that supports high-performance computing and visualization of scientific data. Mantid has been created to manipulate and analyze Neutron and Muon scattering data but could be applied to many other techniques (`Mantid Contributors <https://mantidproject.org/Mantid_About.html>`_).", "The `Mantid website <https://www.mantidproject.org/>`_ includes downloads, tutorials, user documentation, developer documentation, and more."
+   "DrSPINE", "DrSPINE is a software package that performs data reduction and analysis for reactor and pulsed source based Neutron Spin Echo experiments (`DrSPINE Contributors <https://jugit.fz-juelich.de/nse/drspine/-/tree/pztest>`_).", "The `Gitlab <https://jugit.fz-juelich.de/nse/drspine/-/tree/pztest>`_ includes manuals, guides, source code, and papers."
 
 Data Analysis Process
 -----------------------------------

@@ -97,42 +97,4 @@ Overview
     more” (`WaveMetrics <https://www.wavemetrics.com/products/igorpro>`_).
 
 Useful Links and Resources
-    * The WaveMetrics `website <https://www.wavemetrics.com/>`_ includes downloads, case studies, manuals, and more.
-
-
-
-
-.. list-table:: BIO-SANS Data Analysis Software Links
-   :widths: 25 25 25 25 25 25
-   :header-rows: 1
-
-   * - Software
-     - Documentation
-     - User Guide
-     - Source Code
-     - Paper
-     - Coding Language
-   * - ATSAS
-     - No
-     - `Yes <https://www.embl-hamburg.de/biosaxs/courses/>`_
-     - `Yes <https://www.embl-hamburg.de/biosaxs/software.html>`_
-     - `Yes <https://journals.iucr.org/j/issues/2021/01/00/ge5081/index.html>`_
-     - Unknown
-   * - BIOXTAS RAW
-     - `Yes <https://bioxtas-raw.readthedocs.io>`_
-     - `Yes <https://bioxtas-raw.readthedocs.io/en/latest/tutorial.html>`_
-     - `Yes <https://github.com/jbhopkins/bioxtasraw>`_
-     - `Yes <https://journals.iucr.org/paper?S0021889809023863>`_
-     - Python
-   * - SasView
-     - `Yes <https://www.sasview.org/documentation>`_
-     - `Yes <https://www.sasview.org/documentation>`_
-     - `Yes <https://github.com/SasView/sasview>`_
-     - No
-     - Python
-   * - IRENA
-     - `Yes <https://usaxs.xray.aps.anl.gov/software/irena>`_
-     - `Yes <http://saxs-igorcodedocs.readthedocs.io/>`_
-     - `Yes <https://github.com/jilavsky/SAXS_IgorCode>`_
-     - `Yes <https://journals.iucr.org/paper?S0021889809002222>`_
-     - IgorPro
+    The WaveMetrics `website <https://www.wavemetrics.com/>`_ includes downloads, case studies, manuals, and more.

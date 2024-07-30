@@ -7,7 +7,7 @@
   <title>Spectroscopy - Chemical Spectroscopy Group &mdash; Neutron Science Software at ORNL 1.1.0 documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
-      <link rel="stylesheet" type="text/css" href="_static/css/custom.css?v=5df45e3f" />
+      <link rel="stylesheet" type="text/css" href="_static/css/custom.css?v=bd534371" />
 
   
   <!--[if lt IE 9]>
@@ -23,7 +23,7 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Spectroscopy - Direct-Geometry and Triple-Axis Group" href="spectroscopy_dg_ta.html" />
-    <link rel="prev" title="Overview" href="usans.html" /> 
+    <link rel="prev" title="Small Angle Neutron Scattering - USANS" href="usans.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -38,7 +38,7 @@
             Neutron Science Software at ORNL
           </a>
               <div class="version">
-                1.1.0.dev9+d202407301452
+                1.1.0.dev9+d202407301844
               </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
@@ -53,23 +53,11 @@
 <li class="toctree-l1"><a class="reference internal" href="reflectometry.html">Reflectometry</a></li>
 <li class="toctree-l1"><a class="reference internal" href="eqsans.html">Small Angle Neutron Scattering - EQ-SANS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="biosans.html">Small Angle Neutron Scattering - BIO-SANS</a></li>
-<li class="toctree-l1"><a class="reference internal" href="usans.html">Overview</a></li>
-<li class="toctree-l1"><a class="reference internal" href="usans.html#data-reduction-process">Data Reduction Process</a></li>
-<li class="toctree-l1"><a class="reference internal" href="usans.html#data-reduction-software">Data Reduction Software</a></li>
-<li class="toctree-l1"><a class="reference internal" href="usans.html#data-analysis-process">Data Analysis Process</a></li>
-<li class="toctree-l1"><a class="reference internal" href="usans.html#data-analysis-software">Data Analysis Software</a></li>
-<li class="toctree-l1"><a class="reference internal" href="usans.html#id4">Overview</a></li>
-<li class="toctree-l1"><a class="reference internal" href="usans.html#id5">Data Reduction Process</a></li>
-<li class="toctree-l1"><a class="reference internal" href="usans.html#id6">Data Reduction Software</a></li>
-<li class="toctree-l1"><a class="reference internal" href="usans.html#id13">Data Analysis Software</a></li>
+<li class="toctree-l1"><a class="reference internal" href="usans.html">Small Angle Neutron Scattering - USANS</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Spectroscopy - Chemical Spectroscopy Group</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#overview">Overview</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#data-reduction-process">Data Reduction Process</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#data-reduction-software">Data Reduction Software</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#mantid">Mantid</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#drspine">DrSPINE</a></li>
-</ul>
-</li>
+<li class="toctree-l2"><a class="reference internal" href="#data-reduction-software">Data Reduction Software</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#data-analysis-process">Data Analysis Process</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#data-analysis-software">Data Analysis Software</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#oclimax">Oclimax</a></li>
@@ -134,29 +122,25 @@ that is used is DrSpine.</p>
 </section>
 <section id="data-reduction-software">
 <h2>Data Reduction Software<a class="headerlink" href="#data-reduction-software" title="Link to this heading"></a></h2>
-<section id="mantid">
-<h3>Mantid<a class="headerlink" href="#mantid" title="Link to this heading"></a></h3>
-<dl class="simple">
-<dt>Overview</dt><dd><p>“The Mantid project provides a framework that supports high-performance
-computing and visualization of scientific data. Mantid has been created
-to manipulate and analyze Neutron and Muon scattering data but could be
-applied to many other techniques” (<a class="reference external" href="https://mantidproject.org/Mantid_About.html">Mantid Contributors</a>).</p>
-</dd>
-<dt>Useful Links and Resources</dt><dd><p>The Mantid website includes downloads, tutorials, user documentation,
-developer documentation, and more.</p>
-</dd>
-</dl>
-</section>
-<section id="drspine">
-<h3>DrSPINE<a class="headerlink" href="#drspine" title="Link to this heading"></a></h3>
-<dl class="simple">
-<dt>Overview</dt><dd><p>“DrSPINE is a software package that performs data reduction and analysis
-for reactor and pulsed source based Neutron Spin Echo experiments” (<a class="reference external" href="https://jugit.fz-juelich.de/nse/drspine/-/tree/pztest">DrSPINE Contributors</a>).</p>
-</dd>
-<dt>Useful Links and Resources</dt><dd><p>The <a class="reference external" href="https://jugit.fz-juelich.de/nse/drspine/-/tree/pztest">gitlab</a> includes manuals, guides, source code, and papers.</p>
-</dd>
-</dl>
-</section>
+<table class="docutils align-default" id="id2">
+<caption><span class="caption-text">Configuration options</span><a class="headerlink" href="#id2" title="Link to this table"></a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Name</p></th>
+<th class="head"><p>Overview</p></th>
+<th class="head"><p>Useful Links and Resources</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Mantid</p></td>
+<td><p>The Mantid project provides a framework that supports high-performance computing and visualization of scientific data. Mantid has been created to manipulate and analyze Neutron and Muon scattering data but could be applied to many other techniques (<a class="reference external" href="https://mantidproject.org/Mantid_About.html">Mantid Contributors</a>).</p></td>
+<td><p>The <a class="reference external" href="https://www.mantidproject.org/">Mantid website</a> includes downloads, tutorials, user documentation, developer documentation, and more.</p></td>
+</tr>
+<tr class="row-odd"><td><p>DrSPINE</p></td>
+<td><p>DrSPINE is a software package that performs data reduction and analysis for reactor and pulsed source based Neutron Spin Echo experiments (<a class="reference external" href="https://jugit.fz-juelich.de/nse/drspine/-/tree/pztest">DrSPINE Contributors</a>).</p></td>
+<td><p>The <a class="reference external" href="https://jugit.fz-juelich.de/nse/drspine/-/tree/pztest">Gitlab</a> includes manuals, guides, source code, and papers.</p></td>
+</tr>
+</tbody>
+</table>
 </section>
 <section id="data-analysis-process">
 <h2>Data Analysis Process<a class="headerlink" href="#data-analysis-process" title="Link to this heading"></a></h2>
@@ -198,7 +182,7 @@ models (quasi elastic neutron scattering) and other topics” (<a class="referen
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="usans.html" class="btn btn-neutral float-left" title="Overview" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="usans.html" class="btn btn-neutral float-left" title="Small Angle Neutron Scattering - USANS" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
         <a href="spectroscopy_dg_ta.html" class="btn btn-neutral float-right" title="Spectroscopy - Direct-Geometry and Triple-Axis Group" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
