@@ -100,8 +100,10 @@ Useful Links and Resources
     * The WaveMetrics `website <https://www.wavemetrics.com/>`_ includes downloads, case studies, manuals, and more.
 
 
+
+
 .. list-table:: BIO-SANS Data Analysis Software Links
-   :widths: 25 25 25 25 25 25 25
+   :widths: 25 25 25 25 25 25
    :header-rows: 1
 
    * - Software
@@ -122,7 +124,7 @@ Useful Links and Resources
      - `Yes <https://github.com/jbhopkins/bioxtasraw>`_
      - `Yes <https://journals.iucr.org/paper?S0021889809023863>`_
      - Python
- * - SasView
+   * - SasView
      - `Yes <https://www.sasview.org/documentation>`_
      - `Yes <https://www.sasview.org/documentation>`_
      - `Yes <https://github.com/SasView/sasview>`_
