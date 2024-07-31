@@ -39,7 +39,7 @@ Data Reduction Software
      - Instrument scientists can calibrate instruments and reduce large quantities of datasets. Users can correct the collected data with dark current subtraction and normalization by neutron flux, detector sensitivity, solid angle subtended by the detectors, and scaling to absolute units (`drt-sans Contributors <https://www.osti.gov/biblio/1839359>`_).
      - `Read the docs <https://drtsans.readthedocs.io/en/latest/>`_
      - --
-     - `Read the docs <https://drtsans.readthedocs.io/en/latest/>`_
+     - `Code <https://code.ornl.gov/sns-hfir-scse/sans/sans-backend>`_
      - `Paper <https://www.sciencedirect.com/science/article/pii/S2352711022000681>`_
      - Python
   
