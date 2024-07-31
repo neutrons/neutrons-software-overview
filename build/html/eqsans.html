@@ -38,7 +38,7 @@
             Neutron Science Software at ORNL
           </a>
               <div class="version">
-                1.1.0.dev9+d202407301844
+                1.1.0.dev9+d202407311405
               </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
@@ -54,20 +54,9 @@
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Small Angle Neutron Scattering - EQ-SANS</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#overview">Overview</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#data-reduction-process">Data Reduction Process</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#data-reduction-software">Data Reduction Software</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#drt-sans">drt-sans</a></li>
-</ul>
-</li>
+<li class="toctree-l2"><a class="reference internal" href="#data-reduction-software">Data Reduction Software</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#data-analysis-process">Data Analysis Process</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#data-analysis-software">Data Analysis Software</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#sasview">SasView</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#irena">Irena</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#bioxtas-raw">BioXTAS RAW</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#igorpro">IgorPro</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#origin-originpro">Origin/OriginPro</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#grasp">Grasp</a></li>
-</ul>
-</li>
+<li class="toctree-l2"><a class="reference internal" href="#data-analysis-software">Data Analysis Software</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="biosans.html">Small Angle Neutron Scattering - BIO-SANS</a></li>
@@ -118,24 +107,50 @@ typically DRT-SANS.</p>
 </section>
 <section id="data-reduction-software">
 <h2>Data Reduction Software<a class="headerlink" href="#data-reduction-software" title="Link to this heading"></a></h2>
-<section id="drt-sans">
-<h3>drt-sans<a class="headerlink" href="#drt-sans" title="Link to this heading"></a></h3>
-<dl class="simple">
-<dt>Overview</dt><dd><p>“Instrument scientists can calibrate instruments and reduce large
-quantities of datasets. Users can correct the collected data with dark
-current subtraction and normalization by neutron flux, detector
-sensitivity, solid angle subtended by the detectors, and scaling to
-absolute units. Lastly, conversion from time-of-flight and/or
-wavelength to 1D or 2D momentum to prepare for analysis” (<a class="reference external" href="https://www.osti.gov/biblio/1839359">drt-sans Contributors</a>).</p>
-</dd>
-<dt>Useful Links and Resources</dt><dd><ul class="simple">
-<li><p><a class="reference external" href="https://drtsans.readthedocs.io/en/latest/">Documentation</a></p></li>
-<li><p><a class="reference external" href="https://www.sciencedirect.com/science/article/pii/S2352711022000681">Paper</a></p></li>
-<li><p><a class="reference external" href="https://code.ornl.gov/sns-hfir-scse/sans/sans-backend">Source Code</a></p></li>
-</ul>
-</dd>
-</dl>
-</section>
+<table class="docutils align-default" id="id23">
+<caption><span class="caption-text">Table of Commonly Used Reduction Software</span><a class="headerlink" href="#id23" title="Link to this table"></a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Name</p></th>
+<th class="head"><p>Overview</p></th>
+<th class="head"><p>Useful Links and Resources</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>drt-sans</p></td>
+<td><p>Instrument scientists can calibrate instruments and reduce large quantities of datasets. Users can correct the collected data with dark current subtraction and normalization by neutron flux, detector sensitivity, solid angle subtended by the detectors, and scaling to absolute units. Lastly, conversion from time-of-flight and/or wavelength to 1D or 2D momentum to prepare for analysis (<a class="reference external" href="https://www.osti.gov/biblio/1839359">drt-sans Contributors</a>).</p></td>
+<td><p><a class="reference external" href="https://drtsans.readthedocs.io/en/latest/">Documentation</a>, <a class="reference external" href="https://www.sciencedirect.com/science/article/pii/S2352711022000681">Paper</a>, <a class="reference external" href="https://code.ornl.gov/sns-hfir-scse/sans/sans-backend">Source Code</a></p></td>
+</tr>
+</tbody>
+</table>
+<table class="docutils align-default" id="id24">
+<caption><span class="caption-text">EQ-SANS Reduction Software Links</span><a class="headerlink" href="#id24" title="Link to this table"></a></caption>
+<colgroup>
+<col style="width: 16.7%" />
+<col style="width: 16.7%" />
+<col style="width: 16.7%" />
+<col style="width: 16.7%" />
+<col style="width: 16.7%" />
+<col style="width: 16.7%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Software</p></th>
+<th class="head"><p>Documentation</p></th>
+<th class="head"><p>User Guide</p></th>
+<th class="head"><p>Source Code</p></th>
+<th class="head"><p>Paper</p></th>
+<th class="head"><p>Coding Language</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>drtsans</p></td>
+<td><p><a class="reference external" href="https://drtsans.readthedocs.io/en/latest/">Yes</a></p></td>
+<td><p>No</p></td>
+<td><p><a class="reference external" href="https://drtsans.readthedocs.io/en/latest/">Yes</a></p></td>
+<td><p><a class="reference external" href="https://www.sciencedirect.com/science/article/pii/S2352711022000681">Yes</a></p></td>
+<td><p>Python</p></td>
+</tr>
+</tbody>
+</table>
 </section>
 <section id="data-analysis-process">
 <h2>Data Analysis Process<a class="headerlink" href="#data-analysis-process" title="Link to this heading"></a></h2>
@@ -147,85 +162,105 @@ used because of its reputation for being intuitive, capable, and easy to use.</p
 </section>
 <section id="data-analysis-software">
 <h2>Data Analysis Software<a class="headerlink" href="#data-analysis-software" title="Link to this heading"></a></h2>
-<section id="sasview">
-<h3>SasView<a class="headerlink" href="#sasview" title="Link to this heading"></a></h3>
-<dl class="simple">
-<dt>Overview</dt><dd><p>“The aim of the SasView project is to provide open source,
-collaboratively developed software for the analysis of any
-small angle scattering data” (<a class="reference external" href="https://www.sasview.org/about/">SasView Contributors</a>).</p>
-</dd>
-<dt>Useful Links and Resources</dt><dd><ul class="simple">
-<li><p><a class="reference external" href="https://github.com/SasView/sasview">Github</a></p></li>
-<li><p>The SasView <a class="reference external" href="https://www.sasview.org/">website</a> includes documentation, about, downloads, tutorials.</p></li>
-</ul>
-</dd>
-</dl>
-</section>
-<section id="irena">
-<h3>Irena<a class="headerlink" href="#irena" title="Link to this heading"></a></h3>
-<dl class="simple">
-<dt>Overview</dt><dd><p>“Irena is data manipulations and analysis toolbox for small-
-angle scattering (SAXS, SANS, USAXS, USANS) data. It is
-mostly used for analysis of data in materials science,
-chemistry, polymers, metallurgy, physics, and other systems
-of typically solid or liquid samples. It addresses complex
-systems with size distributions, hierarchical structures,
-diffraction peaks, etc.” (<a class="reference external" href="https://usaxs.xray.aps.anl.gov/software/irena">Irena Contributors</a>).</p>
-</dd>
-<dt>Useful Links and Resources</dt><dd><p>The AGL <a class="reference external" href="https://usaxs.xray.aps.anl.gov/software/irena">website</a> includes downloads, documentation, user info, source code, video tutorials, and more.</p>
-</dd>
-</dl>
-</section>
-<section id="bioxtas-raw">
-<h3>BioXTAS RAW<a class="headerlink" href="#bioxtas-raw" title="Link to this heading"></a></h3>
-<dl class="simple">
-<dt>Overview</dt><dd><p>“BioXTAS RAW is a GUI based, free, open-source Python
-program for reduction and analysis of small-angle X-ray
-solution scattering (SAXS) data. The software is designed
-for biological SAXS data” (<a class="reference external" href="https://bioxtas-raw.readthedocs.io/en/latest/">BioXTAS Raw Contrubtors</a>).</p>
-</dd>
-<dt>Useful Links and Resources</dt><dd><p>The BioXTAS <a class="reference external" href="https://bioxtas-raw.readthedocs.io/en/latest/">website</a> has installation, tutorials, manuals, documentation, and more.</p>
-</dd>
-</dl>
-</section>
-<section id="igorpro">
-<h3>IgorPro<a class="headerlink" href="#igorpro" title="Link to this heading"></a></h3>
-<dl class="simple">
-<dt>Overview</dt><dd><p>“IgorPro is an interactive software environment for
-experimentation with scientific and engineering data. Igor
-provides many analysis capabilities, including curve fitting,
-peak analysis, signal processing and statistics, and much
-more” (<a class="reference external" href="https://www.wavemetrics.com/products/igorpro">WaveMetrics</a>).</p>
-</dd>
-<dt>Useful Links and Resources</dt><dd><p>The WaveMetrics <a class="reference external" href="https://www.wavemetrics.com/">website</a> includes downloads, case studies, manuals, and more.</p>
-</dd>
-</dl>
-</section>
-<section id="origin-originpro">
-<h3>Origin/OriginPro<a class="headerlink" href="#origin-originpro" title="Link to this heading"></a></h3>
-<dl class="simple">
-<dt>Overview</dt><dd><p>“Origin is a powerful data analysis and publication-quality
-graphing software, tailored to the needs of scientists and
-engineers. OriginPro offers features such as Peak Fitting,
-Surface Fitting, Statistics, Signal Processing and Image
-Handling” (<a class="reference external" href="https://www.originlab.com/doc/en/User-Guide/GSB-Intro">OriginLab</a>).</p>
-</dd>
-<dt>Useful Links and Resources</dt><dd><p>The OriginLab <a class="reference external" href="https://www.originlab.com/">website</a> includes links to tutorials, list of apps, showcase, documentation, and more.</p>
-</dd>
-</dl>
-</section>
-<section id="grasp">
-<h3>Grasp<a class="headerlink" href="#grasp" title="Link to this heading"></a></h3>
-<dl class="simple">
-<dt>Overview</dt><dd><p>“’GRASP’ is a Matlab script application designed for the
-graphical inspection, analysis and reduction of multi-
-detector data produced by the Small-Angle Neutron
-Scattering (SANS) instruments of the Institut Laue-Langevin (ILL)” (<a class="reference external" href="https://www.ill.eu/users/support-labs-infrastructure/software-scientific-tools/grasp">Grasp Contributors</a>).</p>
-</dd>
-<dt>Useful Links and Resources</dt><dd><p>The ILL <a class="reference external" href="https://www.ill.eu/users/support-labs-infrastructure/software-scientific-tools/grasp">website</a> includes key features, downloads, documentation, example data, and more.</p>
-</dd>
-</dl>
-</section>
+<table class="docutils align-default" id="id25">
+<caption><span class="caption-text">Table of Commonly Used Analysis Software</span><a class="headerlink" href="#id25" title="Link to this table"></a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Name</p></th>
+<th class="head"><p>Overview</p></th>
+<th class="head"><p>Useful Links and Resources</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>SasView</p></td>
+<td><p>The aim of the SasView project is to provide open source, collaboratively developed software for the analysis of any small angle scattering data (<a class="reference external" href="https://www.sasview.org/about/">SasView Contributors</a>).</p></td>
+<td><p><a class="reference external" href="https://github.com/SasView/sasview">Github</a>. The <a class="reference external" href="https://www.sasview.org/">SasView website</a> includes documentation, about, downloads, tutorials.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Irena</p></td>
+<td><p>Irena is data manipulations and analysis toolbox for small-angle scattering (SAXS, SANS, USAXS, USANS) data. It is mostly used for analysis of data in materials science, chemistry, polymers, metallurgy, physics, and other systems of typically solid or liquid samples. It addresses complex systems with size distributions, hierarchical structures, diffraction peaks, etc. (<a class="reference external" href="https://usaxs.xray.aps.anl.gov/software/irena">Irena Contributors</a>).</p></td>
+<td><p>The <a class="reference external" href="https://usaxs.xray.aps.anl.gov/software/irena">AGL website</a> includes downloads, documentation, user info, source code, video tutorials, and more.</p></td>
+</tr>
+<tr class="row-even"><td><p>BioXTAS RAW</p></td>
+<td><p>BioXTAS RAW is a GUI based, free, open-source Python program for reduction and analysis of small-angle X-ray solution scattering (SAXS) data. The software is designed for biological SAXS data (<a class="reference external" href="https://bioxtas-raw.readthedocs.io/en/latest/">BioXTAS RAW Contributors</a>).</p></td>
+<td><p>The <a class="reference external" href="https://bioxtas-raw.readthedocs.io/en/latest/">BioXTAS website</a> has installation, tutorials, manuals, documentation, and more.</p></td>
+</tr>
+<tr class="row-odd"><td><p>IgorPro</p></td>
+<td><p>IgorPro is an interactive software environment for experimentation with scientific and engineering data. Igor provides many analysis capabilities, including curve fitting, peak analysis, signal processing and statistics, and much more (<a class="reference external" href="https://www.wavemetrics.com/products/igorpro">WaveMetrics</a>).</p></td>
+<td><p>The <a class="reference external" href="https://www.wavemetrics.com/">WaveMetrics website</a> includes downloads, case studies, manuals, and more.</p></td>
+</tr>
+<tr class="row-even"><td><p>Origin/OriginPro</p></td>
+<td><p>Origin is a powerful data analysis and publication-quality graphing software, tailored to the needs of scientists and engineers. OriginPro offers features such as Peak Fitting, Surface Fitting, Statistics, Signal Processing and Image Handling (<a class="reference external" href="https://www.originlab.com/doc/en/User-Guide/GSB-Intro">OriginLab</a>).</p></td>
+<td><p>The <a class="reference external" href="https://www.originlab.com/">OriginLab website</a> includes links to tutorials, list of apps, showcase, documentation, and more.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Grasp</p></td>
+<td><p>‘GRASP’ is a Matlab script application designed for the graphical inspection, analysis and reduction of multi-detector data produced by the Small-Angle Neutron Scattering (SANS) instruments of the Institut Laue-Langevin (ILL) (<a class="reference external" href="https://www.ill.eu/users/support-labs-infrastructure/software-scientific-tools/grasp">Grasp Contributors</a>).</p></td>
+<td><p>The <a class="reference external" href="https://www.ill.eu/users/support-labs-infrastructure/software-scientific-tools/grasp">ILL website</a> includes key features, downloads, documentation, example data, and more.</p></td>
+</tr>
+</tbody>
+</table>
+<table class="docutils align-default" id="id26">
+<caption><span class="caption-text">BIO-SANS Data Analysis Software Links</span><a class="headerlink" href="#id26" title="Link to this table"></a></caption>
+<colgroup>
+<col style="width: 16.7%" />
+<col style="width: 16.7%" />
+<col style="width: 16.7%" />
+<col style="width: 16.7%" />
+<col style="width: 16.7%" />
+<col style="width: 16.7%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Software</p></th>
+<th class="head"><p>Documentation</p></th>
+<th class="head"><p>User Guide</p></th>
+<th class="head"><p>Source Code</p></th>
+<th class="head"><p>Paper</p></th>
+<th class="head"><p>Coding Language</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>SasView</p></td>
+<td><p><a class="reference external" href="https://www.sasview.org/documentation">Yes</a></p></td>
+<td><p><a class="reference external" href="https://www.sasview.org/documentation">Yes</a></p></td>
+<td><p><a class="reference external" href="https://github.com/SasView/sasview">Yes</a></p></td>
+<td><p>No</p></td>
+<td><p>Python</p></td>
+</tr>
+<tr class="row-odd"><td><p>IRENA</p></td>
+<td><p><a class="reference external" href="https://usaxs.xray.aps.anl.gov/software/irena">Yes</a></p></td>
+<td><p><a class="reference external" href="http://saxs-igorcodedocs.readthedocs.io/">Yes</a></p></td>
+<td><p><a class="reference external" href="https://github.com/jilavsky/SAXS_IgorCode">Yes</a></p></td>
+<td><p><a class="reference external" href="https://journals.iucr.org/paper?S0021889809002222">Yes</a></p></td>
+<td><p>IgorPro</p></td>
+</tr>
+<tr class="row-even"><td><p>BIOXTAS RAW</p></td>
+<td><p><a class="reference external" href="https://bioxtas-raw.readthedocs.io">Yes</a></p></td>
+<td><p><a class="reference external" href="https://bioxtas-raw.readthedocs.io/en/latest/tutorial.html">Yes</a></p></td>
+<td><p><a class="reference external" href="https://github.com/jbhopkins/bioxtasraw">Yes</a></p></td>
+<td><p><a class="reference external" href="https://journals.iucr.org/paper?S0021889809023863">Yes</a></p></td>
+<td><p>Python</p></td>
+</tr>
+<tr class="row-odd"><td><p>IgorPro</p></td>
+<td><p>No</p></td>
+<td><p><a class="reference external" href="https://www.wavemetrics.com/support">Yes</a></p></td>
+<td><p><a class="reference external" href="https://www.wavemetrics.com/downloads/current">Yes</a></p></td>
+<td><p>No</p></td>
+<td><p>Igor</p></td>
+</tr>
+<tr class="row-even"><td><p>Origin</p></td>
+<td><p><a class="reference external" href="https://www.originlab.com/doc/">Yes</a></p></td>
+<td><p><a class="reference external" href="https://www.originlab.com/doc/User-Guide">Yes</a></p></td>
+<td><p><a class="reference external" href="https://www.originlab.com/index.aspx?go=PRODUCTS/Origin">Yes</a></p></td>
+<td><p>No</p></td>
+<td><p>Unknown</p></td>
+</tr>
+<tr class="row-odd"><td><p>Grasp</p></td>
+<td><p><a class="reference external" href="https://www.ill.eu/users/support-labs-infrastructure/software-scientific-tools/grasp">Yes</a></p></td>
+<td><p><a class="reference external" href="https://www.ill.eu/fileadmin/user_upload/ILL/3_Users/Scientific_groups/Large_Scale_Structures/Grasp/Download/grasp_manual.pdf">Yes</a></p></td>
+<td><p><a class="reference external" href="https://www.ill.eu/users/support-labs-infrastructure/software-scientific-tools/grasp">Yes</a></p></td>
+<td><p><a class="reference external" href="https://journals.iucr.org/j/issues/2023/05/00/jl5070/index.html">Yes</a></p></td>
+<td><p>Python</p></td>
+</tr>
+</tbody>
+</table>
 </section>
 </section>
 

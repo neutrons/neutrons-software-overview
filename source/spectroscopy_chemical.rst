@@ -33,7 +33,7 @@ that is used is DrSpine.
 Data Reduction Software
 -----------------------------------
 
-.. csv-table:: Configuration options
+.. csv-table:: Table of Commonly Used Reduction Software
    :header-rows: 1
 
    "Name", "Overview", "Useful Links and Resources"
@@ -55,21 +55,9 @@ user’s choice. The data is usually a 1-dimensional spectrum. Oclimax is one
 example of software that is being used. Some of the main functions include 
 analyzing lattice dynamics, phonon calculations.
 
-Oclimax
-```````````````````````````````
-Overview
-    “A program for the calculation of inelastic nuclear scattering” (`Cheng, 2018 <https://neutrons.ornl.gov/sites/default/files/2018-NXS_Lecture_YQCheng_2.pdf>`_).
+.. csv-table:: Table of Commonly Used Analysis Software
+   :header-rows: 1
 
-Useful Links and Resources
-    `Website <https://sites.google.com/site/ornliceman/oclimax>`_. An introduction, examples, and installation can be found in this `presentation <https://neutrons.ornl.gov/sites/default/files/2018-NXS_Lecture_YQCheng_2.pdf>`_.
-
-JScatter
-```````````````````````````````
-
-Overview
-    “Jscatter is a python package that provides useful models for neutron 
-    and X-ray scattering form factors, structure factors, and dynamic 
-    models (quasi elastic neutron scattering) and other topics” (`JScatter Contributors <https://pypi.org/project/jscatter/>`_).
-
-Useful Links and Resources
-    The `website <https://pypi.org/project/jscatter/>`_ includes guides, documentation, examples, installation, and more.
+   "Name", "Overview", "Useful Links and Resources"
+   "Oclimax", "A program for the calculation of inelastic nuclear scattering (`Cheng, 2018 <https://neutrons.ornl.gov/sites/default/files/2018-NXS_Lecture_YQCheng_2.pdf>`_).", "`Website <https://sites.google.com/site/ornliceman/oclimax>`_. An introduction, examples, and installation can be found in this `presentation <https://neutrons.ornl.gov/sites/default/files/2018-NXS_Lecture_YQCheng_2.pdf>`_."
+   "JScatter", "Jscatter is a python package that provides useful models for neutron and X-ray scattering form factors, structure factors, and dynamic models (quasi elastic neutron scattering) and other topics (`JScatter Contributors <https://pypi.org/project/jscatter/>`_).", "The `JSCatter website <https://pypi.org/project/jscatter/>`_ includes guides, documentation, examples, installation, and more."
