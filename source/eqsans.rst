@@ -102,7 +102,7 @@ Data Analysis Software
      - `Yes <https://www.originlab.com/doc/User-Guide>`_
      - `Yes <https://www.originlab.com/index.aspx?go=PRODUCTS/Origin>`_
      - No
-     - Unknown
+     - LabTalk
    * - Grasp
      - `Yes <https://www.ill.eu/users/support-labs-infrastructure/software-scientific-tools/grasp>`_
      - `Yes <https://www.ill.eu/fileadmin/user_upload/ILL/3_Users/Scientific_groups/Large_Scale_Structures/Grasp/Download/grasp_manual.pdf>`_
