@@ -97,7 +97,7 @@ Useful Links and Resources
      - Coding Language
    * - MagnetismReflectometer
      - `Yes <https://mr-reduction.readthedocs.io>`_
-     - No
+     - `Yes <https://mr-reduction.readthedocs.io/en/latest/user/reduce.html>`_
      - `Yes <https://github.com/neutrons/MagnetismReflectometer>`_
      - Python
    * - QuickNXS
