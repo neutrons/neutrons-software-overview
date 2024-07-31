@@ -21,8 +21,10 @@ sys.path.insert(0, os.path.abspath("../../"))
 project = "Neutron Science Software at ORNL"  # pylint: disable=C0103
 copyright = "2024, ORNL"  # pylint: disable=W0622, C0103
 author = "ORNL"  # pylint: disable=C0103
-version = versioningit.get_version("../../")
-release = ".".join(version.split(".")[:-1])  # pylint: disable=C0103
+
+# Paul Kim: I'm not sure what the following does. It's causing errors for me.
+# version = versioningit.get_version("../../") 
+# release = ".".join(version.split(".")[:-1])  # pylint: disable=C0103
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration

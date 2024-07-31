@@ -38,7 +38,7 @@
             Neutron Science Software at ORNL
           </a>
               <div class="version">
-                1.1.0.dev9+d202407311405
+                1.1.0.dev9+d202407311417
               </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
@@ -70,18 +70,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#refred">RefRed</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#id8">Data Analysis Software</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#refl1d">Refl1D</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id9">Overview</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#useful-links-and-resources">Useful Links and Resources</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#genx">GenX</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id10">Overview</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id11">Useful Links and Resources</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id12">refnx</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id13">Overview</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id14">Useful Links and Resources</a></li>
-</ul>
-</li>
+<li class="toctree-l2"><a class="reference internal" href="#id8">Data Analysis Software</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="eqsans.html">Small Angle Neutron Scattering - EQ-SANS</a></li>
@@ -131,41 +120,6 @@ or by using an instrument specific software.</p>
 </section>
 <section id="data-reduction-software">
 <h2>Data Reduction Software<a class="headerlink" href="#data-reduction-software" title="Link to this heading"></a></h2>
-<table class="docutils align-default" id="id15">
-<caption><span class="caption-text">Configuration options</span><a class="headerlink" href="#id15" title="Link to this table"></a></caption>
-<thead>
-<tr class="row-odd"><th class="head"><p>Name</p></th>
-<th class="head"><p>Description</p></th>
-<th class="head"><p>Useful Links and Resources</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">jupyter_execute_default_kernel</span></code></p></td>
-<td><p>The default kernel to launch when executing code in <code class="docutils literal notranslate"><span class="pre">jupyter-execute</span></code> directives. Default to <code class="docutils literal notranslate"><span class="pre">python3</span></code>.</p></td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">render_priority_html</span></code></p></td>
-<td><p>The priority of different output mimetypes for displaying in HTML output. Mimetypes earlier in the data priority list are preferred over later ones. This is relevant if a code cell produces an output that has several possible representations (e.g. description text or an image). Please open an issue if you find a mimetype that isn’t supported, but should be. Default to <code class="docutils literal notranslate"><span class="pre">['application/vnd.jupyter.widget-view+json',</span> <span class="pre">'text/html',</span> <span class="pre">'image/svg+xml',</span> <span class="pre">'image/png',</span> <span class="pre">'image/jpeg',</span> <span class="pre">'text/latex',</span> <span class="pre">'text/plain']</span></code>.</p></td>
-<td></td>
-</tr>
-<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">render_priority_latex</span></code></p></td>
-<td><p>Same as <code class="docutils literal notranslate"><span class="pre">render_priority_html</span></code>, but for latex. The default is <code class="docutils literal notranslate"><span class="pre">['image/svg+xml',</span> <span class="pre">'image/png',</span> <span class="pre">'image/jpeg',</span> <span class="pre">'text/latex',</span> <span class="pre">'text/plain']</span></code>.</p></td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">jupyter_execute_kwargs</span></code></p></td>
-<td><p>Keyword arguments to pass to <code class="docutils literal notranslate"><span class="pre">nbconvert.preprocessors.execute.executenb</span></code>, which controls how code cells are executed. The default is <code class="docutils literal notranslate"><span class="pre">{'timeout':-1,</span> <span class="pre">'allow_errors':</span> <span class="pre">True)</span></code>.</p></td>
-<td></td>
-</tr>
-<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">jupyter_sphinx_linenos</span></code></p></td>
-<td><p>Whether to show line numbering in all <code class="docutils literal notranslate"><span class="pre">jupyter-execute</span></code> sources.</p></td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">jupyter_sphinx_continue_linenos</span></code></p></td>
-<td><p>Whether to continue line numbering from previous cell in all <code class="docutils literal notranslate"><span class="pre">jupyter-execute</span></code> sources.</p></td>
-<td></td>
-</tr>
-</tbody>
-</table>
 <section id="magnetismreflectometer-auto-reduction-script-for-the-magnetic-reflectometer">
 <h3>MagnetismReflectometer (Auto reduction Script For the Magnetic Reflectometer)<a class="headerlink" href="#magnetismreflectometer-auto-reduction-script-for-the-magnetic-reflectometer" title="Link to this heading"></a></h3>
 <dl class="simple">
@@ -229,8 +183,8 @@ Spallation Neutron Source at Oak Ridge National Laboratory” (<a class="referen
 <dt>Useful Links and Resources</dt><dd><p><a class="reference external" href="https://github.com/neutrons/RefRed">Source code</a>.</p>
 </dd>
 </dl>
-<table class="docutils align-default" id="id16">
-<caption><span class="caption-text">Reflectometry Data Reduction Software Links</span><a class="headerlink" href="#id16" title="Link to this table"></a></caption>
+<table class="docutils align-default" id="id9">
+<caption><span class="caption-text">Reflectometry Data Reduction Software Links</span><a class="headerlink" href="#id9" title="Link to this table"></a></caption>
 <colgroup>
 <col style="width: 20.0%" />
 <col style="width: 20.0%" />
@@ -277,55 +231,29 @@ Spallation Neutron Source at Oak Ridge National Laboratory” (<a class="referen
 </section>
 <section id="id8">
 <h2>Data Analysis Software<a class="headerlink" href="#id8" title="Link to this heading"></a></h2>
-<section id="refl1d">
-<h3>Refl1D<a class="headerlink" href="#refl1d" title="Link to this heading"></a></h3>
-</section>
-<section id="id9">
-<h3>Overview<a class="headerlink" href="#id9" title="Link to this heading"></a></h3>
-<p>“Refl1D is a program for analyzing 1D reflectometry
-measurements made with X-ray and neutron beamlines. The
-1-D models give the depth profile for material scattering
-density composed of a mixture of flat and continuously
-varying freeform layers. With polarized neutron
-measurements, scientists can study the sub-surface structure
-of magnetic samples. The architecture supports the addition
-of specialized layer types such as models for the density
-distribution of polymer brushes, and volume space modeling
-for proteins in bio-membranes” (<a class="reference external" href="https://github.com/reflectometry/refl1d">Refl1D Contributors</a>).</p>
-</section>
-<section id="useful-links-and-resources">
-<h3>Useful Links and Resources<a class="headerlink" href="#useful-links-and-resources" title="Link to this heading"></a></h3>
-<ul class="simple">
-<li><p><a class="reference external" href="https://github.com/reflectometry/refl1d">Github</a></p></li>
-<li><p><a class="reference external" href="https://refl1d.readthedocs.io/en/latest/">Documentation</a> includes getting started, tutorials, user guide, and documentation.</p></li>
-</ul>
-</section>
-<section id="genx">
-<h3>GenX<a class="headerlink" href="#genx" title="Link to this heading"></a></h3>
-</section>
-<section id="id10">
-<h3>Overview<a class="headerlink" href="#id10" title="Link to this heading"></a></h3>
-<p>“GenX is a versatile program using the differential evolution
-algorithm for fitting, primarily, X-ray and neutron reflectivity
-data, lately also surface x-ray diffraction data” (<a class="reference external" href="https://aglavic.github.io/genx/">GenX Contributors</a>).</p>
-</section>
-<section id="id11">
-<h3>Useful Links and Resources<a class="headerlink" href="#id11" title="Link to this heading"></a></h3>
-<p>The GenX <a class="reference external" href="https://aglavic.github.io/genx/">website</a> includes source code, downloads, publications, how to, and more.</p>
-</section>
-<section id="id12">
-<h3>refnx<a class="headerlink" href="#id12" title="Link to this heading"></a></h3>
-</section>
-<section id="id13">
-<h3>Overview<a class="headerlink" href="#id13" title="Link to this heading"></a></h3>
-<p>“refnx is a flexible, powerful, Python package for generalised
-curvefitting analysis, specifically neutron and X-ray
-reflectometry data” (<a class="reference external" href="https://refnx.readthedocs.io/en/latest/">Refnx Contributors</a>).</p>
-</section>
-<section id="id14">
-<h3>Useful Links and Resources<a class="headerlink" href="#id14" title="Link to this heading"></a></h3>
-<p>The <a class="reference external" href="https://refnx.readthedocs.io/en/latest/">refnx website</a> includes installation, getting started, examples, API reference, and source code.</p>
-</section>
+<table class="docutils align-default" id="id10">
+<caption><span class="caption-text">Table of Commonly Used Analysis Software</span><a class="headerlink" href="#id10" title="Link to this table"></a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Name</p></th>
+<th class="head"><p>Overview</p></th>
+<th class="head"><p>Useful Links and Resources</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Refl1D</p></td>
+<td><p>Refl1D is a program for analyzing 1D reflectometry measurements made with X-ray and neutron beamlines. The 1-D models give the depth profile for material scattering density composed of a mixture of flat and continuously varying freeform layers. With polarized neutron measurements, scientists can study the sub-surface structure of magnetic samples. The architecture supports the addition of specialized layer types such as models for the density distribution of polymer brushes, and volume space modeling for proteins in bio-membranes (<a class="reference external" href="https://github.com/reflectometry/refl1d">Refl1D Contributors</a>).</p></td>
+<td><p><cite>Github &lt;https://github.com/reflectometry/refl1d&gt;</cite>, <a class="reference external" href="https://refl1d.readthedocs.io/en/latest/">Documentation</a> includes getting started, tutorials, user guide, and documentation.</p></td>
+</tr>
+<tr class="row-odd"><td><p>GenX</p></td>
+<td><p>GenX is a versatile program using the differential evolution algorithm for fitting, primarily, X-ray and neutron reflectivity data, lately also surface x-ray diffraction data (<a class="reference external" href="https://aglavic.github.io/genx/">GenX Contributors</a>).</p></td>
+<td><p>The <a class="reference external" href="https://aglavic.github.io/genx/">GenX website</a> includes source code, downloads, publications, how to, and more.</p></td>
+</tr>
+<tr class="row-even"><td><p>refnx</p></td>
+<td><p>refnx is a flexible, powerful, Python package for generalised curvefitting analysis, specifically neutron and X-ray reflectometry data (<a class="reference external" href="https://refnx.readthedocs.io/en/latest/">Refnx Contributors</a>).</p></td>
+<td><p>The <a class="reference external" href="https://refnx.readthedocs.io/en/latest/">refnx website</a> includes installation, getting started, examples, API reference, and source code.</p></td>
+</tr>
+</tbody>
+</table>
 </section>
 </section>
 
