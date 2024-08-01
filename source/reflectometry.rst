@@ -21,7 +21,7 @@ Each of these instruments have their own reduction software. For MAGREF, the
 software is QuickNXS and for LIQREF, the software is RefRed.
 
 .. list-table:: Reflectometry Data Reduction Software Links
-   :widths: 15 25 13 11 10 8 15
+   :widths: 15 25 13 11 10 15
    :header-rows: 1
 
    * - Software
