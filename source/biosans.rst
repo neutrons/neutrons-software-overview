@@ -17,7 +17,7 @@ Data Reduction Software
 
 
 .. list-table:: BIO-SANS Data Reduction Software Links
-   :widths: 16 25 18 11 15 8 15
+   :widths: 8 25 13 11 10 8 15
    :header-rows: 1
 
    * - Software
@@ -55,7 +55,7 @@ Data Analysis Software
 -----------------------------------
 
 .. list-table:: BIO-SANS Data Analysis Software Links
-   :widths: 16 25 18 11 15 8 15
+   :widths: 8 25 13 11 10 8 15
    :header-rows: 1
 
    * - Software
