@@ -28,15 +28,14 @@ Data Reduction Software
      - Paper
      - Coding Language
    * - Mantid
-     - The Mantid project provides a framework that supports high-performance computing and visualization of scientific data. Mantid has been created to manipulate 
-       and analyze Neutron and Muon scattering data but could be applied to many other techniques (`Mantid Contributors <https://mantidproject.org/Mantid_About.html>`_).
+     - "The Mantid project provides a framework that supports high-performance computing and visualization of scientific data. Mantid has been created to manipulate and analyze Neutron and Muon scattering data but could be applied to many other techniques" (`Mantid Contributors <https://mantidproject.org/Mantid_About.html>`_).
      - `Website <https://developer.mantidproject.org/>`_
      - `Docs <https://docs.mantidproject.org/nightly/>`_
      - `GitHub <https://github.com/mantidproject/mantid>`_
      - `Paper <https://ieeexplore.ieee.org/document/9377836>`_
      - C++ and Python
    * - drtSANS
-     - Instrument scientists can calibrate instruments and reduce large quantities of datasets. Users can correct the collected data with dark current subtraction and normalization by neutron flux, detector sensitivity, solid angle subtended by the detectors, and scaling to absolute units (`drt-sans Contributors <https://www.osti.gov/biblio/1839359>`_).
+     - "Instrument scientists can calibrate instruments and reduce large quantities of datasets. Users can correct the collected data with dark current subtraction and normalization by neutron flux, detector sensitivity, solid angle subtended by the detectors, and scaling to absolute units" (`drt-sans Contributors <https://www.osti.gov/biblio/1839359>`_).
      - `Read the docs <https://drtsans.readthedocs.io/en/latest/>`_
      - --
      - `Code <https://code.ornl.gov/sns-hfir-scse/sans/sans-backend>`_
@@ -66,28 +65,28 @@ Data Analysis Software
      - Paper
      - Coding Language
    * - ATSAS
-     - The ATSAS software suite encompasses a number of programs for the processing, visualization, analysis and modelling of small-angle scattering data, with a focus on the data measured from biological macromolecules (`ATSAS Paper <https://pubmed.ncbi.nlm.nih.gov/33833657/>`_).
+     - "The ATSAS software suite encompasses a number of programs for the processing, visualization, analysis and modelling of small-angle scattering data, with a focus on the data measured from biological macromolecules" (`ATSAS Paper <https://pubmed.ncbi.nlm.nih.gov/33833657/>`_).
      - --
      - `Maunals <https://www.embl-hamburg.de/biosaxs/manuals/>`_
      - `Website <https://www.embl-hamburg.de/biosaxs/software.html>`_
      - `Paper <https://journals.iucr.org/j/issues/2021/01/00/ge5081/index.html>`_
      - --
    * - BIOXTAS RAW
-     - BioXTAS RAW is a GUI based, free, open-source Python program for reduction and analysis of small-angle X-ray solution scattering (SAXS) data. The software is designed for biological SAXS data (`BioXTAS RAW Contributors <https://bioxtas-raw.readthedocs.io/en/latest/>`_).
+     - "BioXTAS RAW is a GUI based, free, open-source Python program for reduction and analysis of small-angle X-ray solution scattering (SAXS) data. The software is designed for biological SAXS data" (`BioXTAS RAW Contributors <https://bioxtas-raw.readthedocs.io/en/latest/>`_).
      - `Read the docs <https://bioxtas-raw.readthedocs.io>`_
      - `Tutorial <https://bioxtas-raw.readthedocs.io/en/latest/tutorial.html>`_
      - `GitHub <https://github.com/jbhopkins/bioxtasraw>`_
      - `Paper <https://journals.iucr.org/paper?S0021889809023863>`_
      - Python
    * - SasView
-     - The aim of the SasView project is to provide open source, collaboratively developed software for the analysis of any small angle scattering data (`SasView Contributors <https://www.sasview.org/about/>`_).
+     - "The aim of the SasView project is to provide open source, collaboratively developed software for the analysis of any small angle scattering data" (`SasView Contributors <https://www.sasview.org/about/>`_).
      - `Documentation <https://www.sasview.org/documentation>`_
      - `Tutorial <https://www.sasview.org/documentation>`_
      - `GitHub <https://github.com/SasView/sasview>`_
      - --
      - Python
    * - IRENA (IgorPro)
-     - IgorPro is an interactive software environment for experimentation with scientific and engineering data. Igor provides many analysis capabilities, including curve fitting, peak analysis, signal processing and statistics, and much more (`WaveMetrics <https://www.wavemetrics.com/products/igorpro>`_).
+     - "IgorPro is an interactive software environment for experimentation with scientific and engineering data. Igor provides many analysis capabilities, including curve fitting, peak analysis, signal processing and statistics, and much more" (`WaveMetrics <https://www.wavemetrics.com/products/igorpro>`_).
      - `Website <https://usaxs.xray.aps.anl.gov/software/irena>`_
      - `Read the docs <http://saxs-igorcodedocs.readthedocs.io/>`_
      - `GitHub <https://github.com/jilavsky/SAXS_IgorCode>`_
