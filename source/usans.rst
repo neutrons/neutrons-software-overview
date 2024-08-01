@@ -15,7 +15,7 @@ Data Reduction Software
 -----------------------------------
 
 .. list-table:: USANS Reduction Software Links
-   :widths: 25 25 25 25 25 25 25
+   :widths: 8 25 13 11 10 8 15
    :header-rows: 1
 
    * - Software
@@ -52,7 +52,7 @@ Data Analysis Software
 -----------------------------------
 
 .. list-table:: USANS Analysis Software Links
-   :widths: 25 25 25 25 25 25 25
+   :widths: 8 25 13 11 10 8 15
    :header-rows: 1
 
    * - Software
