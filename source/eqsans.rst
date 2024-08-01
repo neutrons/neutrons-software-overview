@@ -21,7 +21,7 @@ Data Reduction Software
 -----------------------------------
 
 .. list-table:: EQ-SANS Reduction Software Links
-   :widths:  25 25 25 25 25 25 25
+   :widths:  8 25 13 11 10 8 15
    :header-rows: 1
 
    * - Software
@@ -49,7 +49,7 @@ Data Analysis Software
 -----------------------------------
 
 .. list-table:: BIO-SANS Data Analysis Software Links
-   :widths: 25 25 25 25 25 25 25
+   :widths: 8 25 13 11 10 8 15
    :header-rows: 1
 
    * - Software
