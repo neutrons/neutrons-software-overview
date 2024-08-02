@@ -2,7 +2,7 @@
 A Sphinx-based repo that describes the software used for neutron sciences for data reduction and analysis.
 
 ### Paper Reference
-This includes information from the following SULI internship projects:
+This includes information from the following SULI/CCI internship projects:
 - [An Exploration on the Data Reduction and Analysis Software Used for Spectroscopy at Spallation Neutron Source and High Flux Isotope Reactor](https://github.com/PaulEunKim/neutron-software/blob/main/Research_Report.pdf)
 - [Exploration on Data Software for Small Angle Neutron Scattering and Reflectometry](https://github.com/PaulEunKim/neutron-software/blob/main/Research_Paper.pdf)
 
