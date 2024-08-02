@@ -30,7 +30,7 @@ Data Reduction Software
      - User Guide
      - Source Code
      - Paper
-     - Coding Language
+     - Coding Language/ Technologies
    * - drtsans
      - "Instrument scientists can calibrate instruments and reduce large quantities of datasets. Users can correct the collected data with dark current subtraction and normalization by neutron flux, detector sensitivity, solid angle subtended by the detectors, and scaling to absolute units. Lastly, conversion from time-of-flight and/or wavelength to 1D or 2D momentum to prepare for analysis" (`drt-sans Contributors <https://www.osti.gov/biblio/1839359>`_).
      - `Read the docs <https://drtsans.readthedocs.io/en/latest/>`_
@@ -58,10 +58,10 @@ Data Analysis Software
      - User Guide
      - Source Code
      - Paper
-     - Coding Language
+     - Coding Language/ Technologies
    * - SasView
      - "The aim of the SasView project is to provide open source, collaboratively developed software for the analysis of any small angle scattering data" (`SasView Contributors <https://www.sasview.org/about/>`_).
-     - `Documentation <https://www.sasview.org/documentation>`_
+     - `Website <https://www.sasview.org/documentation>`_
      - `Tutorial <https://www.sasview.org/documentation>`_
      - `GitHub <https://github.com/SasView/sasview>`_
      - --
@@ -84,19 +84,19 @@ Data Analysis Software
      - "IgorPro is an interactive software environment for experimentation with scientific and engineering data. Igor provides many analysis capabilities, including curve fitting, peak analysis, signal processing and statistics, and much more" (`WaveMetrics <https://www.wavemetrics.com/products/igorpro>`_).
      - --
      - `Support <https://www.wavemetrics.com/support>`_
-     - `WaveMetric <https://www.wavemetrics.com/downloads/current>`_
+     - `Website <https://www.wavemetrics.com/downloads/current>`_
      - --
      - Igor
    * - Origin
      - "Origin is a powerful data analysis and publication-quality graphing software, tailored to the needs of scientists and engineers. OriginPro offers features such as Peak Fitting, Surface Fitting, Statistics, Signal Processing and Image Handling" (`OriginLab <https://www.originlab.com/doc/en/User-Guide/GSB-Intro>`_).
-     - `Documentation <https://www.originlab.com/doc/>`_
+     - `Website <https://www.originlab.com/doc/>`_
      - `Guide <https://www.originlab.com/doc/User-Guide>`_
      - `Website <https://www.originlab.com/index.aspx?go=PRODUCTS/Origin>`_
      - --
      - LabTalk
    * - Grasp
      - "'GRASP' is a Matlab script application designed for the graphical inspection, analysis and reduction of multi-detector data produced by the Small-Angle Neutron Scattering (SANS) instruments of the Institut Laue-Langevin (ILL)" (`Grasp Contributors <https://www.ill.eu/users/support-labs-infrastructure/software-scientific-tools/grasp>`_).
-     - `Documentation <https://www.ill.eu/users/support-labs-infrastructure/software-scientific-tools/grasp>`_
+     - `Website <https://www.ill.eu/users/support-labs-infrastructure/software-scientific-tools/grasp>`_
      - `Manual <https://www.ill.eu/fileadmin/user_upload/ILL/3_Users/Scientific_groups/Large_Scale_Structures/Grasp/Download/grasp_manual.pdf>`_
      - `Website <https://www.ill.eu/users/support-labs-infrastructure/software-scientific-tools/grasp>`_
      - `Paper <https://journals.iucr.org/j/issues/2023/05/00/jl5070/index.html>`_
