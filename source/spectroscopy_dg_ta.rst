@@ -29,7 +29,7 @@ Data Reduction Software
      - User Guide
      - Source Code
      - Paper
-     - Coding Language
+     - Coding Language/ Technologies
    * - Mantid
      - "The Mantid project provides a framework that supports high-performance computing and visualization of scientific data. Mantid has been created to manipulate and analyze Neutron and Muon scattering data but could be applied to many other techniques" (`Mantid Contributors <https://mantidproject.org/Mantid_About.html>`_).
      - `Website <https://developer.mantidproject.org/>`_
@@ -66,7 +66,7 @@ Data Analysis Software
      - User Guide
      - Source Code
      - Paper
-     - Coding Language
+     - Coding Language/ Technologies
    * - Dave
      - "The main objective of DAVE is to provide a user friendly tool for scientists involved in neutron scattering research to quickly reduce, visualize and interpret their data (NIST Center for Neutron Research, 2010)."
      - `Website <https://ncnr.nist.gov/dave/documentation.html>`_
@@ -83,7 +83,7 @@ Data Analysis Software
      - Python
    * - Horace
      - "Horace is a suite of programs for the visualization and analysis of large datasets from time-of-flight neutron inelastic scattering spectrometers (Horace Contributors)."
-     - `User documentation <https://pace-neutrons.github.io/Horace/v3.6.4/>`_
+     - `GitHub page <https://pace-neutrons.github.io/Horace/v3.6.4/>`_
      - `Guide <https://pace-neutrons.github.io/Horace/v3.6.4/User_guide.html>`_
      - `GitHub <https://github.com/pace-neutrons/Horace>`_
      - `Paper <https://www.sciencedirect.com/science/article/pii/S016890021630777X>`_
@@ -97,7 +97,7 @@ Data Analysis Software
      - Matlab
    * - Sunny
      - "Sunny is a Julia package for modeling atomic-scale magnetism. It provides powerful tools to study equilibrium and non-equilibrium magnetic phenomena. In particular, it allows estimation of dynamical structure factor intensities, S(q,w), to support quantitative modeling of experimental scattering data (Sunny Contributors)."
-     - `Website <https://sunnysuite.github.io/Sunny.jl/dev/index.html>`_
+     - `GitHub page <https://sunnysuite.github.io/Sunny.jl/dev/index.html>`_
      - `Guide <https://github.com/SunnySuite/Sunny.jl/wiki/Getting-started-with-Julia>`_
      - `GitHub <https://github.com/SunnySuite/Sunny.jl>`_
      - --
