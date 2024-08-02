@@ -26,7 +26,7 @@ Data Reduction Software
      - User Guide
      - Source Code
      - Paper
-     - Coding Language
+     - Coding Language/ Technologies
    * - Mantid
      - "The Mantid project provides a framework that supports high-performance computing and visualization of scientific data. Mantid has been created to manipulate and analyze Neutron and Muon scattering data but could be applied to many other techniques" (`Mantid Contributors <https://mantidproject.org/Mantid_About.html>`_).
      - `Website <https://developer.mantidproject.org/>`_
@@ -63,7 +63,7 @@ Data Analysis Software
      - User Guide
      - Source Code
      - Paper
-     - Coding Language
+     - Coding Language/ Technologies
    * - ATSAS
      - "The ATSAS software suite encompasses a number of programs for the processing, visualization, analysis and modelling of small-angle scattering data, with a focus on the data measured from biological macromolecules" (`ATSAS Paper <https://pubmed.ncbi.nlm.nih.gov/33833657/>`_).
      - --
@@ -80,7 +80,7 @@ Data Analysis Software
      - Python
    * - SasView
      - "The aim of the SasView project is to provide open source, collaboratively developed software for the analysis of any small angle scattering data" (`SasView Contributors <https://www.sasview.org/about/>`_).
-     - `Documentation <https://www.sasview.org/documentation>`_
+     - `Website <https://www.sasview.org/documentation>`_
      - `Tutorial <https://www.sasview.org/documentation>`_
      - `GitHub <https://github.com/SasView/sasview>`_
      - --
