@@ -33,12 +33,31 @@ that is used is DrSpine.
 Data Reduction Software
 -----------------------------------
 
-.. csv-table:: Table of Commonly Used Reduction Software
+.. list-table:: Chemical Spectroscopy Data Reduction Software Links
+   :widths: 8 25 13 11 10 8 15
    :header-rows: 1
 
-   "Name", "Overview", "Useful Links and Resources"
-   "Mantid", "The Mantid project provides a framework that supports high-performance computing and visualization of scientific data. Mantid has been created to manipulate and analyze Neutron and Muon scattering data but could be applied to many other techniques (`Mantid Contributors <https://mantidproject.org/Mantid_About.html>`_).", "The `Mantid website <https://www.mantidproject.org/>`_ includes downloads, tutorials, user documentation, developer documentation, and more."
-   "DrSPINE", "DrSPINE is a software package that performs data reduction and analysis for reactor and pulsed source based Neutron Spin Echo experiments (`DrSPINE Contributors <https://jugit.fz-juelich.de/nse/drspine/-/tree/pztest>`_).", "The `Gitlab <https://jugit.fz-juelich.de/nse/drspine/-/tree/pztest>`_ includes manuals, guides, source code, and papers."
+   * - Software
+     - Description
+     - Documentation
+     - User Guide
+     - Source Code
+     - Paper
+     - Coding Language
+   * - Mantid
+     - "The Mantid project provides a framework that supports high-performance computing and visualization of scientific data. Mantid has been created to manipulate and analyze Neutron and Muon scattering data but could be applied to many other techniques" (`Mantid Contributors <https://mantidproject.org/Mantid_About.html>`_).
+     - `Website <https://developer.mantidproject.org/>`_
+     - `Docs <https://docs.mantidproject.org/nightly/>`_
+     - `GitHub <https://github.com/mantidproject/mantid>`_
+     - `Paper <https://ieeexplore.ieee.org/document/9377836>`_
+     - C++ and Python
+   * - DrSPINE
+     - "DrSPINE is a software package that performs data reduction and analysis for reactor and pulsed source based Neutron Spin Echo experiments (`DrSPINE Contributors <https://jugit.fz-juelich.de/nse/drspine/-/tree/pztest>`_)."
+     - `Command Guide <https://www.osti.gov/biblio/1883898/>`_
+     - `Manual <https://jugit.fz-juelich.de/nse/drspine/-/wikis/manual>`_
+     - `Gitlab <https://jugit.fz-juelich.de/nse/drspine/-/tree/pztest>`_
+     - `Paper <https://journals.iucr.org/j/issues/2019/05/00/po5149/index.html>`_
+     - Fortran & Roff
 
 Data Analysis Process
 -----------------------------------
@@ -55,9 +74,29 @@ user’s choice. The data is usually a 1-dimensional spectrum. Oclimax is one
 example of software that is being used. Some of the main functions include 
 analyzing lattice dynamics, phonon calculations.
 
-.. csv-table:: Table of Commonly Used Analysis Software
+
+.. list-table:: Chemical Spectroscopy Data Analysis Software Links
+   :widths: 8 25 13 11 10 8 15
    :header-rows: 1
 
-   "Name", "Overview", "Useful Links and Resources"
-   "Oclimax", "A program for the calculation of inelastic nuclear scattering (`Cheng, 2018 <https://neutrons.ornl.gov/sites/default/files/2018-NXS_Lecture_YQCheng_2.pdf>`_).", "`Website <https://sites.google.com/site/ornliceman/oclimax>`_. An introduction, examples, and installation can be found in this `presentation <https://neutrons.ornl.gov/sites/default/files/2018-NXS_Lecture_YQCheng_2.pdf>`_."
-   "JScatter", "Jscatter is a python package that provides useful models for neutron and X-ray scattering form factors, structure factors, and dynamic models (quasi elastic neutron scattering) and other topics (`JScatter Contributors <https://pypi.org/project/jscatter/>`_).", "The `JSCatter website <https://pypi.org/project/jscatter/>`_ includes guides, documentation, examples, installation, and more."
+   * - Software
+     - Description
+     - Documentation
+     - User Guide
+     - Source Code
+     - Paper
+     - Coding Language
+   * - Oclimax
+     - "A program for the calculation of inelastic nuclear scattering (`Cheng, 2018 <https://neutrons.ornl.gov/sites/default/files/2018-NXS_Lecture_YQCheng_2.pdf>`_)."
+     - --
+     - `Workshop Guide <https://conference.sns.gov/event/242/attachments/600/4587/Chemical_Spectroscopy_Software_2020_Cheng.pdf>`_
+     - `Website <https://sites.google.com/site/ornliceman/download>`_
+     - `Paper <https://www.osti.gov/biblio/1845813>`_
+     - Python
+   * - JScatter
+     - "Jscatter is a python package that provides useful models for neutron and X-ray scattering form factors, structure factors, and dynamic models (quasi elastic neutron scattering) and other topics (`JScatter Contributors <https://pypi.org/project/jscatter/>`_)."
+     - `Read the docs <https://jscatter.readthedocs.io/en/latest/>`_
+     - `Tutorial <https://jscatter.readthedocs.io/en/latest/BeginnersGuide.html>`_
+     - `PYPI project <https://pypi.org/project/jscatter/>`_
+     - --
+     - Python

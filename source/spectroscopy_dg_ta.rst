@@ -19,13 +19,32 @@ is important for single crystal, 3D structure.
 Data Reduction Software
 -----------------------------------
 
-.. csv-table:: Table of Commonly Used Reduction Software
+.. list-table:: Chemical Spectroscopy Data Reduction Software Links
+   :widths: 8 25 13 11 10 8 15
    :header-rows: 1
 
-   "Name", "Overview", "Useful Links and Resources"
-   "Mantid", "The Mantid project provides a framework that supports high-performance computing and visualization of scientific data. Mantid has been created to manipulate and analyze Neutron and Muon scattering data but could be applied to many other techniques (`Mantid Contributors <https://mantidproject.org/Mantid_About.html>`_).", "The `Mantid website <https://www.mantidproject.org/>`_ includes downloads, tutorials, user documentation, developer documentation, and more."
-   "DrSPINE", "DrSPINE is a software package that performs data reduction and analysis for reactor and pulsed source based Neutron Spin Echo experiments (`DrSPINE Contributors <https://jugit.fz-juelich.de/nse/drspine/-/tree/pztest>`_).", "The `Gitlab <https://jugit.fz-juelich.de/nse/drspine/-/tree/pztest>`_ includes manuals, guides, source code, and papers."
+   * - Software
+     - Description
+     - Documentation
+     - User Guide
+     - Source Code
+     - Paper
+     - Coding Language
+   * - Mantid
+     - "The Mantid project provides a framework that supports high-performance computing and visualization of scientific data. Mantid has been created to manipulate and analyze Neutron and Muon scattering data but could be applied to many other techniques" (`Mantid Contributors <https://mantidproject.org/Mantid_About.html>`_).
+     - `Website <https://developer.mantidproject.org/>`_
+     - `Docs <https://docs.mantidproject.org/nightly/>`_
+     - `GitHub <https://github.com/mantidproject/mantid>`_
+     - `Paper <https://ieeexplore.ieee.org/document/9377836>`_
+     - C++ and Python
+   * - DrSPINE
+     - "DrSPINE is a software package that performs data reduction and analysis for reactor and pulsed source based Neutron Spin Echo experiments (`DrSPINE Contributors <https://jugit.fz-juelich.de/nse/drspine/-/tree/pztest>`_)."
+     - `Command Guide <https://www.osti.gov/biblio/1883898/>`_
+     - `Manual <https://jugit.fz-juelich.de/nse/drspine/-/wikis/manual>`_
+     - `Gitlab <https://jugit.fz-juelich.de/nse/drspine/-/tree/pztest>`_
+     - `Paper <https://journals.iucr.org/j/issues/2019/05/00/po5149/index.html>`_
 
+     - Fortran & Roff
 Data Analysis Process
 -----------------------------------
 
@@ -35,18 +54,79 @@ are more complicated than structure and, for example, a magnetism
 perspective may be relevant.
 
 Data Analysis Software
------------------------------------
+----------------------------------- 
 
-.. csv-table:: Table of Commonly Used Analysis Software
+.. list-table:: Direct-Geometry and Triple-Axis Data Analysis Software Links
+   :widths: 8 25 13 11 10 8 15
    :header-rows: 1
 
-    Name, Description, Useful Links and Resources
-    Dave, "The main objective of DAVE is to provide a user friendly tool for scientists involved in neutron scattering research to quickly reduce, visualize and interpret their data (NIST Center for Neutron Research, 2010).", "The `Dave website <https://www.ncnr.nist.gov/dave/>`_ includes links to user manuals, paper, documentation, course notes, downloads, features, screenshots, changelogs, and more."
-    Shiver, "Tool (desktop application) for allowing the examination of Time of Flightchat (ToF) inelastic neutron data, from single crystal, direct geometry experiments (Shiver Contributors).", "`User documentation <https://neutrons.github.io/Shiver/>`_, `developer documentation <https://shiver.readthedocs.io/en/latest/index.html>`_, `source code <https://github.com/neutrons/Shiver>`_. Can also be accessed by the command ‘shiver’ on the `analysis cluster <https://analysis.sns.gov/>`_."
-    Horace, "Horace is a suite of programs for the visualization and analysis of large datasets from time-of-flight neutron inelastic scattering spectrometers (Horace Contributors).", "`User documentation <https://pace-neutrons.github.io/Horace/v3.6.4/>`_, `Developer documentation <https://pace-neutrons.github.io/Horace/v3.6.4/Developers.html>`_, `Source Code <https://github.com/pace-neutrons/Horace>`_, `Examples <https://pace-neutrons.github.io/Horace/v3.6.4/user_guide/Example_scripts.html>`_, `Local Installation <https://pace-neutrons.github.io/Horace/v3.6.4/introduction/Download_and_setup.html#installation-instructions>`_. To use in the `analysis cluster <http://analysis.sns.gov/>`_, open Matlab, then type ‘horace’ in the command line."
-    SpinW, "SpinW is a MATLAB, Python, and C++ library that can plot and numerically simulate magnetic structures and excitations of given spin Hamiltonian using classical Monte Carlo simulation and linear spin wave theory (SpinW Contributors).", "`Source code <https://github.com/spinw/SpinW>`_, `Official Documentation <https://spinw.org/spinwdoc/>`_. The `SpinW website <https://spinw.org/>`_ also includes documentation, installation instructions, tutorials, publications, presentations, and more."
-    Sunny, "Sunny is a Julia package for modeling atomic-scale magnetism. It provides powerful tools to study equilibrium and non-equilibrium magnetic phenomena. In particular, it allows estimation of dynamical structure factor intensities, S(q,w), to support quantitative modeling of experimental scattering data (Sunny Contributors).", "`Documentation <https://sunnysuite.github.io/Sunny.jl/dev/index.html>`_, `Github <https://github.com/SunnySuite/Sunny.jl>`_"
-    Phonopy, "Phono3py is another open source package for phonon-phonon interaction and lattice thermal conductivity calculations (Phono3py Contributors).", "The `Phonopy website <https://phonopy.github.io/phonopy/>`_ includes guides, documentation, features, and more."
-    GSAS-II, "GSAS-II is used to analyze all types of x-ray and neutron diffraction data, including single-crystal, powder, constant-wavelength, pink-beam and time-of-flight, lab, synchrotron, spallation and reactor sources, including Rietveld analysis (GSAS-II Contributors).", "The `GSAS-II website <https://gsas-ii.readthedocs.io/en/latest/>`_ includes developer documentation, tutorials, and source code."
-    Spice/Graffiti, "SPICE is a LabVIEW based program designed for control of neutron scattering instruments. Currently, SPICE is being used on the HB1 and HB3 triple-axis spectrometers at the High Flux Isotope Reactor at Oak Ridge National Laboratory (Spice Contributors).", "The `Spice website <https://neutron.ornl.gov/spice/>`_ includes introductions, user guides, downloads, and more."
-    Multiphonon, "Powder spectra measured by inelastic neutron spectrometers provide information such as phonon density of states (DOS), a fundamental property of a solid. The measured spectra, however, are two-dimensional in axes of Q (momentum transfer) and E (energy transfer). This code converts a S(Q,E) INS spectrum to DOS (Multiphonon Contributors).", "`Documentation <https://multiphonon.readthedocs.io/en/latest/index.html>`_, `Github <https://github.com/neutrons/multiphonon>`_, `Examples <https://github.com/neutrons/multiphonon/blob/next/examples/README.md>`_"    
+   * - Software
+     - Description
+     - Documentation
+     - User Guide
+     - Source Code
+     - Paper
+     - Coding Language
+   * - Dave
+     - "The main objective of DAVE is to provide a user friendly tool for scientists involved in neutron scattering research to quickly reduce, visualize and interpret their data (NIST Center for Neutron Research, 2010)."
+     - `Website <https://ncnr.nist.gov/dave/documentation.html>`_
+     - --
+     - `Website <https://ncnr.nist.gov/dave/download.html>`_
+     - `Paper <https://nvlpubs.nist.gov/nistpubs/jres/114/6/V114.N06.A04.pdf>`_
+     -  Tcl/Tk & Octave
+   * - Shiver
+     - "Tool (desktop application) for allowing the examination of Time of Flightchat (ToF) inelastic neutron data, from single crystal, direct geometry experiments (Shiver Contributors)."
+     - `Read the docs <https://shiver.readthedocs.io/en/latest/>`_
+     - `Guide <https://neutrons.github.io/Shiver/>`_
+     - `GitHub <https://github.com/neutrons/Shiver>`_
+     - --
+     - Python
+   * - Horace
+     - "Horace is a suite of programs for the visualization and analysis of large datasets from time-of-flight neutron inelastic scattering spectrometers (Horace Contributors)."
+     - `User documentation <https://pace-neutrons.github.io/Horace/v3.6.4/>`_
+     - `Guide <https://pace-neutrons.github.io/Horace/v3.6.4/User_guide.html>`_
+     - `GitHub <https://github.com/pace-neutrons/Horace>`_
+     - `Paper <https://www.sciencedirect.com/science/article/pii/S016890021630777X>`_
+     - Matlab
+   * - SpinW
+     - "SpinW is a MATLAB, Python, and C++ library that can plot and numerically simulate magnetic structures and excitations of given spin Hamiltonian using classical Monte Carlo simulation and linear spin wave theory (SpinW Contributors)."
+     - `Website <https://spinw.org/>`_
+     - `Tutorial <https://spinw.org/tutorials/>`_
+     - `GitHub <https://github.com/spinw/SpinW>`_
+     - --
+     - Matlab
+   * - Sunny
+     - "Sunny is a Julia package for modeling atomic-scale magnetism. It provides powerful tools to study equilibrium and non-equilibrium magnetic phenomena. In particular, it allows estimation of dynamical structure factor intensities, S(q,w), to support quantitative modeling of experimental scattering data (Sunny Contributors)."
+     - `Website <https://sunnysuite.github.io/Sunny.jl/dev/index.html>`_
+     - `Guide <https://github.com/SunnySuite/Sunny.jl/wiki/Getting-started-with-Julia>`_
+     - `GitHub <https://github.com/SunnySuite/Sunny.jl>`_
+     - --
+     - Julia
+   * - Phonopy
+     - "Phono3py is another open source package for phonon-phonon interaction and lattice thermal conductivity calculations (Phono3py Contributors)."
+     - `GitHub page <https://phonopy.github.io/phonopy/index.html>`_
+     - --
+     - `GitHub <https://github.com/phonopy/phono3py>`_
+     - --
+     - Python
+   * - GSAS-II
+     - "GSAS-II is used to analyze all types of x-ray and neutron diffraction data, including single-crystal, powder, constant-wavelength, pink-beam and time-of-flight, lab, synchrotron, spallation and reactor sources, including Rietveld analysis (GSAS-II Contributors)."
+     - `Read the docs <https://gsas-ii.readthedocs.io/en/latest/>`_
+     - `Guide <https://advancedphotonsource.github.io/GSAS-II-tutorials/tutorials.html>`_
+     - `GitHub <https://github.com/AdvancedPhotonSource/GSAS-II>`_
+     - --
+     - Python
+   * - Spice/Graffiti
+     - "SPICE is a LabVIEW based program designed for control of neutron scattering instruments. Currently, SPICE is being used on the HB1 and HB3 triple-axis spectrometers at the High Flux Isotope Reactor at Oak Ridge National Laboratory (Spice Contributors)."
+     - `Documentation <https://neutron.ornl.gov/spice/User_Downloads.html>`_
+     - `How to <https://neutron.ornl.gov/spice/#Howto>`_
+     - `Downloads <https://neutron.ornl.gov/spice/User_Downloads.html>`_
+     - --
+     - LabView, Matlab
+   * - Multiphonon
+     - "Powder spectra measured by inelastic neutron spectrometers provide information such as phonon density of states (DOS), a fundamental property of a solid. The measured spectra, however, are two-dimensional in axes of Q (momentum transfer) and E (energy transfer). This code converts a S(Q,E) INS spectrum to DOS (Multiphonon Contributors)."
+     - `Read the docs <https://multiphonon.readthedocs.io/en/latest/index.html>`_
+     - --
+     - `Github <https://github.com/neutrons/multiphonon>`_
+     - --
+     - Python
