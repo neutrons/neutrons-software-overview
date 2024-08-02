@@ -20,11 +20,20 @@ typically DRT-SANS.
 Data Reduction Software
 -----------------------------------
 
-.. csv-table:: Table of Commonly Used Reduction Software
-   :header-rows: 1
+drt-sans
+```````````````````````````````
+Overview
+    “Instrument scientists can calibrate instruments and reduce large
+    quantities of datasets. Users can correct the collected data with dark
+    current subtraction and normalization by neutron flux, detector
+    sensitivity, solid angle subtended by the detectors, and scaling to
+    absolute units. Lastly, conversion from time-of-flight and/or
+    wavelength to 1D or 2D momentum to prepare for analysis” (`drt-sans Contributors <https://www.osti.gov/biblio/1839359>`_).
 
-   "Name", "Overview", "Useful Links and Resources"
-   "drt-sans", "Instrument scientists can calibrate instruments and reduce large quantities of datasets. Users can correct the collected data with dark current subtraction and normalization by neutron flux, detector sensitivity, solid angle subtended by the detectors, and scaling to absolute units. Lastly, conversion from time-of-flight and/or wavelength to 1D or 2D momentum to prepare for analysis (`drt-sans Contributors <https://www.osti.gov/biblio/1839359>`_).", "`Documentation <https://drtsans.readthedocs.io/en/latest/>`_, `Paper <https://www.sciencedirect.com/science/article/pii/S2352711022000681>`_, `Source Code <https://code.ornl.gov/sns-hfir-scse/sans/sans-backend>`_"
+Useful Links and Resources
+    * `Documentation <https://drtsans.readthedocs.io/en/latest/>`_
+    * `Paper <https://www.sciencedirect.com/science/article/pii/S2352711022000681>`_
+    * `Source Code <https://code.ornl.gov/sns-hfir-scse/sans/sans-backend>`_
 
 .. list-table:: EQ-SANS Reduction Software Links
    :widths:  25 25 25 25 25 25
@@ -102,7 +111,7 @@ Data Analysis Software
      - `Yes <https://www.originlab.com/doc/User-Guide>`_
      - `Yes <https://www.originlab.com/index.aspx?go=PRODUCTS/Origin>`_
      - No
-     - LabTalk
+     - Unknown
    * - Grasp
      - `Yes <https://www.ill.eu/users/support-labs-infrastructure/software-scientific-tools/grasp>`_
      - `Yes <https://www.ill.eu/fileadmin/user_upload/ILL/3_Users/Scientific_groups/Large_Scale_Structures/Grasp/Download/grasp_manual.pdf>`_
