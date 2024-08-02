@@ -29,7 +29,7 @@ software is QuickNXS and for LIQREF, the software is RefRed.
      - Documentation
      - User Guide
      - Source Code
-     - Coding Language
+     - Coding Language/ Technologies
    * - MagnetismReflectometer
      - Auto reduction Script For the Magnetic Reflectometer
      - `Read the docs <https://mr-reduction.readthedocs.io>`_
@@ -68,7 +68,7 @@ Data Analysis Software
      - User Guide
      - Source Code
      - Paper
-     - Coding Language
+     - Coding Language/ Technologies
    * - Refl1D
      - "Refl1D is a program for analyzing 1D reflectometry measurements made with X-ray and neutron beamlines. The 1-D models give the depth profile for material scattering density composed of a mixture of flat and continuously varying freeform layers. With polarized neutron measurements, scientists can study the sub-surface structure of magnetic samples. The architecture supports the addition of specialized layer types such as models for the density distribution of polymer brushes, and volume space modeling for proteins in bio-membranes" (`Refl1D Contributors <https://github.com/reflectometry/refl1d>`_).
      - `Read the docs <https://refl1d.readthedocs.io/en/latest/>`_
@@ -85,7 +85,7 @@ Data Analysis Software
      - Python
    * - Genx
      - "GenX is a versatile program using the differential evolution algorithm for fitting, primarily, X-ray and neutron reflectivity data, lately also surface x-ray diffraction data" (`GenX Contributors <https://aglavic.github.io/genx/>`_).
-     - `Documentation <https://aglavic.github.io/genx/doc/>`_
+     - `GitHub Page <https://aglavic.github.io/genx/doc/>`_
      - `How to use <https://aglavic.github.io/genx/howtouse.html>`_
      - `GitHub <https://github.com/aglavic/genx>`_
      - `Paper <https://journals.iucr.org/j/issues/2022/04/00/ge5118/index.html>`_
