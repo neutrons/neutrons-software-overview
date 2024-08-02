@@ -43,7 +43,7 @@ Data Reduction Software
      - User Guide
      - Source Code
      - Paper
-     - Coding Language
+     - Coding Language/ Technologies
    * - Mantid
      - "The Mantid project provides a framework that supports high-performance computing and visualization of scientific data. Mantid has been created to manipulate and analyze Neutron and Muon scattering data but could be applied to many other techniques" (`Mantid Contributors <https://mantidproject.org/Mantid_About.html>`_).
      - `Website <https://developer.mantidproject.org/>`_
@@ -85,7 +85,7 @@ analyzing lattice dynamics, phonon calculations.
      - User Guide
      - Source Code
      - Paper
-     - Coding Language
+     - Coding Language/ Technologies
    * - Oclimax
      - "A program for the calculation of inelastic nuclear scattering (`Cheng, 2018 <https://neutrons.ornl.gov/sites/default/files/2018-NXS_Lecture_YQCheng_2.pdf>`_)."
      - --
