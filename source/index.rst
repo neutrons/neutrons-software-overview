@@ -20,3 +20,6 @@ Contents
    spectroscopy_chemical
    spectroscopy_dg_ta
 
+This includes information from the following SULI/CCI internship projects:
+   * `An Exploration on the Data Reduction and Analysis Software Used for Spectroscopy at Spallation Neutron Source and High Flux Isotope Reactor <https://github.com/PaulEunKim/neutron-software/blob/main/Research_Report.pdf>`_ by Paul Kim
+   * `Exploration on Data Software for Small Angle Neutron Scattering and Reflectometry <https://github.com/PaulEunKim/neutron-software/blob/main/Research_Paper.pdf>`_ by Patrick Angelino
