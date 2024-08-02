@@ -24,7 +24,7 @@ Data Reduction Software
      - User Guide
      - Source Code
      - Paper
-     - Coding Language
+     - Coding Language/ Technologies
    * - drtsans
      - "Instrument scientists can calibrate instruments and reduce large quantities of datasets. Users can correct the collected data with dark current subtraction and normalization by neutron flux, detector sensitivity, solid angle subtended by the detectors, and scaling to absolute units. Lastly, conversion from time-of-flight and/or wavelength to 1D or 2D momentum to prepare for analysis" (`drt-sans Contributors <https://www.osti.gov/biblio/1839359>`_).
      - `Read the docs <https://drtsans.readthedocs.io/en/latest/>`_
@@ -61,7 +61,7 @@ Data Analysis Software
      - User Guide
      - Source Code
      - Paper
-     - Coding Language
+     - Coding Language/ Technologies
    * - USANSDATA
      - Python script for USANS data reduction / analysis (`USANSDATA Contributors <https://code.ornl.gov/rys/usans-reduction>`_).
      - --
@@ -71,7 +71,7 @@ Data Analysis Software
      - Python
    * - SasView
      - "The aim of the SasView project is to provide open source, collaboratively developed software for the analysis of any small angle scattering data" (`SasView Contributors <https://www.sasview.org/about/>`_).
-     - `Documentation <https://www.sasview.org/documentation>`_
+     - `Website <https://www.sasview.org/documentation>`_
      - `Tutorial <https://www.sasview.org/documentation>`_
      - `GitHub <https://github.com/SasView/sasview>`_
      - --
